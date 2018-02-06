@@ -38,13 +38,11 @@ export default class GuestsView extends React.Component {
 
   render() {
     return (
-      <SafeAreaView style={{ flex: 1, backgroundColor: '#FFF' }}>
-        <ListView
-          style={ styles.scroll }
-          dataSource={ this.state.dataSource }
-          renderRow={ rowData => <GuestItem navigation={ this.props.navigation } key={ rowData.guest_id } guest_id={ rowData.guest_id } /> }
-        />
-      </SafeAreaView>
+      <ListView
+        style={ styles.scroll }
+        dataSource={ this.state.dataSource }
+        renderRow={ rowData => <GuestItem navigation={ this.props.navigation } key={ rowData.guest_id } guest_id={ rowData.guest_id } /> }
+      />
     );
   }
 

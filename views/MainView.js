@@ -5,6 +5,7 @@ import {
   AsyncStorage,
   Dimensions,
   Navigator,
+  SafeAreaView,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -110,10 +111,12 @@ export default class MainView extends React.Component {
       main = <Text>Loading...</Text>
     }
     return (
-      <View style={ styles.mainView }>
-        { main }
-        <Toast />
-      </View>
+      <SafeAreaView style={{ flex: 1 }}>
+        <View style={ styles.mainView }>
+          { main }
+          <Toast />
+        </View>
+      </SafeAreaView>
     )
   }
 }

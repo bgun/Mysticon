@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import {
   Dimensions,
+  SafeAreaView,
   ScrollView,
   StyleSheet,
   Text,
@@ -32,7 +33,7 @@ class MenuItem extends React.Component {
 export default class MoreView extends React.Component {
 
   static navigationOptions = {
-    title: "Schedule",
+    title: "More",
     tabBarLabel: "More",
     tabBarIcon: ({ tintColor }) => (
       <Icon name="dots-three-horizontal" size={ 24 } color={ tintColor } />
