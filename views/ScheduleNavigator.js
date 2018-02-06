@@ -12,7 +12,7 @@ import GuestDetailView from './GuestDetailView';
 
 
 let ScheduleNavigator = StackNavigator({
-  "Schedule"    : { screen: ScheduleView },
+  "ScheduleView": { screen: ScheduleView },
   "EventDetail" : { screen: EventDetailView },
   "GuestDetail" : { screen: GuestDetailView }
 });

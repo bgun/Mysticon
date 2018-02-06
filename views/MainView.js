@@ -15,10 +15,10 @@ import {
 
 import { StackRouter, TabNavigator, StackNavigator } from 'react-navigation';
 
-import DashboardView     from './DashboardView';
-import ScheduleNavigator from './ScheduleNavigator';
-import GuestsView        from './GuestsView';
-import MoreView          from './MoreView';
+import DashboardView   from './DashboardView';
+import ScheduleNavigator    from './ScheduleNavigator';
+import GuestsView      from './GuestsView';
+import MoreView        from './MoreView';
 
 import Toast from '../components/Toast';
 
@@ -111,12 +111,10 @@ export default class MainView extends React.Component {
       main = <Text>Loading...</Text>
     }
     return (
-      <SafeAreaView style={{ flex: 1 }}>
-        <View style={ styles.mainView }>
-          { main }
-          <Toast />
-        </View>
-      </SafeAreaView>
+      <View style={ styles.mainView }>
+        { main }
+        <Toast />
+      </View>
     )
   }
 }
