@@ -1,7 +1,7 @@
 'use strict';
 
+import _ from 'lodash';
 import React from 'react';
-
 
 import {
   InteractionManager,
@@ -11,10 +11,19 @@ import {
   View
 } from 'react-native';
 
+import Icon from 'react-native-vector-icons/Entypo';
+
 import GuestItem from '../components/GuestItem';
 
 
-export default class GuestsView extends Component {
+export default class GuestsView extends React.Component {
+
+  static navigationOptions = {
+    tabBarLabel: "Guests",
+    tabBarIcon: ({ tintColor }) => (
+      <Icon name="users" size={ 24 } color={ tintColor } />
+    )
+  };
 
   constructor(props) {
     super();

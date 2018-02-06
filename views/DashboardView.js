@@ -18,8 +18,6 @@ import Icon from 'react-native-vector-icons/Entypo';
 
 import _ from 'lodash';
 
-import con_info from '../con_info.json';
-
 import dataStore from '../dataStore';
 import EventItem from '../components/EventItem';
 
@@ -32,10 +30,6 @@ export default class DashboardView extends Component {
   static navigationOptions = {
     tabBarLabel: "Home",
     tabBarIcon: ({ tintColor }) => (
-      <Icon name="home" size={ 24 } color={ tintColor } />
-    ),
-    drawerLabel: "Home",
-    drawerIcon: ({ tintColor }) => (
       <Icon name="home" size={ 24 } color={ tintColor } />
     )
   };
@@ -75,7 +69,7 @@ export default class DashboardView extends Component {
     return (
       <View style={ styles.container }>
         <ScrollView style={{ flexDirection: 'column' }}>
-          <Image style={{ flex: 1, height: 333, width: window.width }} source={ con_info.images.DASHBOARD } />
+          <Image style={{ flex: 1, height: 333, width: window.width }} source={{ uri: global.con_data.images.DASHBOARD }} />
           <Text style={ styles.todoTitleText }>MY TO-DO LIST</Text>
           { this.state.todoCount > 0 ? (
           <ListView

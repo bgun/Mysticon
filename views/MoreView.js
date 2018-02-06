@@ -9,8 +9,6 @@ import {
   View
 } from 'react-native'
 
-import { Actions } from 'react-native-router-flux';
-
 import Icon from 'react-native-vector-icons/Entypo';
 
 import globalStyles from '../globalStyles';
@@ -20,14 +18,9 @@ let window = Dimensions.get('window');
 
 class MenuItem extends React.Component {
 
-  onPress() {
-    Actions[this.props.action]();
-    this.props.onAction();
-  }
-
   render() {
     return (
-      <TouchableOpacity style={ styles.menuItem } onPress={ () => this.onPress() }>
+      <TouchableOpacity style={ styles.menuItem } onPress={ () => this.props.navigator.navigate(this.props.link) }>
         <Icon name={ this.props.icon } size={16} color="white"/>
         <View style={{ width: 16 }} />
         <Text style={ styles.menuItemText }>{ this.props.text }</Text>
@@ -36,18 +29,27 @@ class MenuItem extends React.Component {
   }
 }
 
-export default class Menu extends React.Component {
+export default class MoreView extends React.Component {
+
+  static navigationOptions = {
+    tabBarLabel: "More",
+    tabBarIcon: ({ tintColor }) => (
+      <Icon name="dots-three-horizontal" size={ 24 } color={ tintColor } />
+    )
+  };
+
   render() {
     return (
       <ScrollView style={ styles.container }>
-        <MenuItem key="directions" action="directions" text="Maps & Directions" icon="map"     onAction={ () => this.props.onAction() } />
-        <MenuItem key="gaming"     action="gaming"     text="Gaming"            icon="pencil"  onAction={ () => this.props.onAction() } />
-        <MenuItem key="feedback"   action="feedback"   text="Feedback"          icon="pencil"  onAction={ () => this.props.onAction() } />
-        <MenuItem key="newsfeed"   action="newsFeed"   text="News & Updates"    icon="bell"    onAction={ () => this.props.onAction() } />
-        <MenuItem key="about"      action="about"      text="About"             icon="help"    onAction={ () => this.props.onAction() } />
+        <MenuItem key="directions" link="directions" text="Maps & Directions" icon="map"    />
+        <MenuItem key="gaming"     link="gaming"     text="Gaming"            icon="pencil" />
+        <MenuItem key="feedback"   link="feedback"   text="Feedback"          icon="pencil" />
+        <MenuItem key="newsfeed"   link="newsFeed"   text="News & Updates"    icon="bell"   />
+        <MenuItem key="about"      link="about"      text="About"             icon="help"   />
       </ScrollView>
     )
   }
+
 }
 
 let styles = StyleSheet.create({

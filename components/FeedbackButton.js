@@ -25,9 +25,6 @@ export default class FeedbackButton extends Component {
   }
 
 }
-FeedbackButton.propTypes = {
-  subject: React.PropTypes.string.isRequired
-}
 
 const styles = StyleSheet.create({
   button: {

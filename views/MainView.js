@@ -14,11 +14,10 @@ import {
 
 import { StackRouter, TabNavigator, StackNavigator } from 'react-navigation';
 
-import DashboardView   from './DashboardView';
-import DirectionsView  from './DirectionsView';
-import EventDetailView from './EventDetailView';
-import GuestDetailView from './GuestDetailView';
-import ScheduleView    from './ScheduleView';
+import DashboardView     from './DashboardView';
+import ScheduleNavigator from './ScheduleNavigator';
+import GuestsView        from './GuestsView';
+import MoreView          from './MoreView';
 
 import Toast from '../components/Toast';
 
@@ -26,14 +25,22 @@ import dataStore from '../dataStore';
 import globalStyles from '../globalStyles';
 
 
-let MainNavigator = StackNavigator({
+let MainNavigator = TabNavigator({
   Home: {
     screen: DashboardView,
     path: ''
   },
   Schedule: {
-    screen: ScheduleView,
+    screen: ScheduleNavigator,
     path: 'schedule'
+  },
+  Guests: {
+    screen: GuestsView,
+    path: 'guests'
+  },
+  More: {
+    screen: MoreView,
+    path: 'more'
   }
 }, {
   initialRouteName: 'Home'

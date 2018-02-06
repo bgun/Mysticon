@@ -21,10 +21,6 @@ ScheduleNavigator.navigationOptions = {
   tabBarLabel: "Schedule",
   tabBarIcon: ({ tintColor }) => (
     <Icon name="calendar" size={ 24 } color={ tintColor } />
-  ),
-  drawerLabel: "Schedule",
-  drawerIcon: ({ tintColor }) => (
-    <Icon name="calendar" size={ 24 } color={ tintColor } />
   )
 };
 

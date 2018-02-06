@@ -21,6 +21,7 @@ import { H1, H2, H3, H4 } from '../components/Headings';
 
 
 class ExpandableText extends React.Component {
+
   constructor(props) {
     super();
     this.state = {
@@ -28,6 +29,7 @@ class ExpandableText extends React.Component {
       btnText  : props.defaultOpen ? 'Show Less' : 'Show More'
     }
   }
+
   toggleMore() {
     let show = !this.state.showMore;
     this.setState({
@@ -35,6 +37,7 @@ class ExpandableText extends React.Component {
       btnText  : show ? 'Show Less' : 'Show More'
     });
   }
+
   render() {
     let text = this.props.text || ""; // avoid printing "undefined"
     return (
@@ -57,6 +60,7 @@ class ExpandableText extends React.Component {
     )
   }
 }
+
 ExpandableText.defaultProps = {
   btnStyle: {
     color: globalStyles.COLORS.highlight,
