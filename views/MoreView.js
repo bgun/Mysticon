@@ -32,6 +32,7 @@ class MenuItem extends React.Component {
 export default class MoreView extends React.Component {
 
   static navigationOptions = {
+    title: "Schedule",
     tabBarLabel: "More",
     tabBarIcon: ({ tintColor }) => (
       <Icon name="dots-three-horizontal" size={ 24 } color={ tintColor } />
@@ -54,10 +55,9 @@ export default class MoreView extends React.Component {
 
 let styles = StyleSheet.create({
   container: {
-    backgroundColor: globalStyles.COLORS.menuBg,
+    backgroundColor: '#FFF',
     flex: 1,
     height: window.height,
-    paddingLeft: window.width/3, // side menu defaults to 2/3 of screen width
     paddingTop: 40
   },
   menuItem: {
@@ -68,7 +68,6 @@ let styles = StyleSheet.create({
     width: window.width,
   },
   menuItemText: {
-    color: 'white',
     fontSize: 16
   }
 });

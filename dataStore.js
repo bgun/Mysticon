@@ -23,6 +23,7 @@ export default {
 
   fetchFromNetwork: () => {
     return new Promise((resolve, reject) => {
+      console.log("Fetching from", packageJson.CON_INFO_URL);
       fetch(packageJson.CON_INFO_URL, fetchOptions)
         .then(resp => resp.json())
         .then(data => {

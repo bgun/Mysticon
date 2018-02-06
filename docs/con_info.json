@@ -5,7 +5,251 @@
   },
   "styles": {
   },
-  "events": [],
+  "events": [
+  [
+    {
+      "title": "Opening Ceremonies",
+      "event_id": "1357-openingceremonies",
+      "description": "<p>Welcome to our ninth annual JordanCon's Opening Ceremonies Extravaganza!</p>",
+      "datetime": "2017-04-21T13:00:00.000Z",
+      "day": "2017-04-21T00:00:00.000Z",
+      "time": "13:00",
+      "location": "Carter",
+      "guest_list": [],
+      "track": "Main"
+    },
+    {
+      "title": "WoT for Beginners",
+      "event_id": "1301-wotforbeginners",
+      "description": "<p>New to the Wheel? Reading but not finished? Tagging along with a friend or significant other? Come to our orientation; we'll take questions and avoid spoilers.</p>",
+      "datetime": "2017-04-21T14:30:00.000Z",
+      "day": "2017-04-21T00:00:00.000Z",
+      "time": "14:30",
+      "location": "Jackson",
+      "guest_list": [
+        "ebonyadomanis",
+        "aubreepham",
+        "theresagray"
+      ],
+      "track": "World of the Wheel"
+    },
+    {
+      "title": "Blademaster Practice Session",
+      "event_id": "1358-blademasterpracticesession",
+      "description": "<p>Come practice for the Blademaster tournament.</p>",
+      "datetime": "2017-04-21T14:30:00.000Z",
+      "day": "2017-04-21T00:00:00.000Z",
+      "time": "14:30",
+      "location": "Carter",
+      "guest_list": [
+        "baopham",
+        "chipmoore",
+        "kelceycasson",
+        "bengundersen"
+      ],
+      "track": "Main"
+    },
+    {
+      "title": "Meet the Bird Whisperers!",
+      "event_id": "1330-meetthebirdwhisperers",
+      "description": "<p>Amanda Makepeace and Melissa Gay, founders of the #BirdWhispereProject, share the art that results when artists celebrate a shared love of our feathered friends by using the same visual references for their work.</p>",
+      "datetime": "2017-04-21T14:30:00.000Z",
+      "day": "2017-04-21T00:00:00.000Z",
+      "time": "14:30",
+      "location": "Washington",
+      "guest_list": [
+        "melissagay",
+        "amandamakepeace"
+      ],
+      "track": "Art Show"
+      },
+    {
+    "title": "Welcome to the Potterverse",
+    "event_id": "1407-welcometothepotterverse",
+    "description": "<p>Harry Potter, Hogwarts, Marauders, Fantastic Beasts, Cursed Child, Wizarding World, books, movies, theme parks. Let's discuss J.K. Rowling's universe.</p>",
+    "datetime": "2017-04-21T14:30:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "14:30",
+    "location": "Jefferson",
+    "guest_list": [
+    "thomdesimone",
+    "erindesimone",
+    "darinmbush"
+    ],
+    "track": "Swords & Sorcery"
+    },
+    {
+    "title": "Art Show & Dealer Hall - Open for Business",
+    "event_id": "1420-artshowdealerhallopenforbusiness",
+    "description": "<p>The Art Show & Dealer Hall is open from 2:30 PM until 7 PM on Friday. </p>\n<p>The JordanCon Charity Auction team will be stationed in the middle of the Dealer Hall during regular business hours to accept your donations for <a href=\"/content/charity-auction\" target=\"_blank\">Saturday's Charity Auction</a> to benefit the Mayo Clinic's Amyloidosis research. </p>",
+    "datetime": "2017-04-21T14:30:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "14:30",
+    "location": "Salon A",
+    "guest_list": [
+    "paulbielaczyc",
+    "aprilmoore"
+    ],
+    "track": "Art Show"
+    },
+    {
+    "title": "Bringing Your Writing To Your Game",
+    "event_id": "1317-bringingyourwritingtoyourgame",
+    "description": "<p>Games are written too! Whether a board game with lore and story, or a DM's homebrewed campaign setting, the craft has many applications.</p>",
+    "datetime": "2017-04-21T14:30:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "14:30",
+    "location": "Madison",
+    "guest_list": [
+    "michaelbielaczyc",
+    "charlesegannon",
+    "jonhermsen"
+    ],
+    "track": "Writers"
+    },
+    {
+    "title": "Painting an Art Nouveau Lady",
+    "event_id": "1289-paintinganartnouveaulady",
+    "description": "<p>Video demo of a painting from the planning stages to the finished product. Including a hands on practice for how to get the hair right. Learn from a professional about basic tools and resources to get started with watercolor, with participants Q&As.</p>",
+    "datetime": "2017-04-21T14:30:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "14:30",
+    "location": "Monroe",
+    "guest_list": [
+    "angelasasser"
+    ],
+    "track": "Workshop"
+    },
+    {
+    "title": "Reading: David B Coe and Jason Denzel",
+    "event_id": "1425-readingdavidbcoeandjasondenzel",
+    "description": "<p>Readings by Author Guests David B Coe and Jason Denzel</p>",
+    "datetime": "2017-04-21T14:30:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "14:30",
+    "location": "Twisted Oak",
+    "guest_list": [
+    "davidbcoe",
+    "jasondenzel"
+    ],
+    "track": "Readings"
+    },
+    {
+    "title": "Novellas and Short Stories",
+    "event_id": "1385-novellasandshortstories",
+    "description": "<p>Discussion of Brandon's shorter works. Includes those in Arcanum Unbounded and stand-alone works.</p>",
+    "datetime": "2017-04-21T14:30:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "14:30",
+    "location": "Roosevelt",
+    "guest_list": [
+    "billytodd",
+    "deanawhitney",
+    "ethansivek",
+    "karenmarks"
+    ],
+    "track": "The Worlds of Brandon Sanderson"
+    },
+    {
+    "title": "Darkfriend",
+    "event_id": "1433-darkfriend",
+    "description": "<p>Wheel of Time themed Werewolf! Come on down and play! Kill your friends as the Darkfriend or Hunt some Darkfriends as one of the villagers!</p>",
+    "datetime": "2017-04-21T14:30:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "14:30",
+    "location": "Table 1",
+    "guest_list": [],
+    "track": "Gaming"
+    },
+    {
+    "title": "Science Facts: 2016 - 2017",
+    "event_id": "1392-sciencefacts20162017",
+    "description": "<p>A great way to start off the convention is by hitting the science in our Science Fiction right off the bat. As we do every year, the panelists will discuss a selection of science topics from the previous and current year. Audience participation is encouraged. If you have a science specialty of your own, definitely come and share the exciting news from your profession. In addition, we will discuss how these new discoveries affect our Science Fiction creations.</p>",
+    "datetime": "2017-04-21T14:30:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "14:30",
+    "location": "Tyler",
+    "guest_list": [
+    "seanhillman",
+    "nancymccullough"
+    ],
+    "track": "Rivets & Robots"
+    },
+    {
+    "title": "Introduction to Flat Pattern Alterations",
+    "event_id": "1352-introductiontoflatpatternalterations",
+    "description": "<p>Ever had a pattern you love, but it needs a few changes to work for a new outfit?<br />\nLearn to alter your patterns so you don't have to buy a new one every time. Learn to alter the final look of a design with a few simple changes. </p>\n<p>Students will practice various methods with a paper bodice pattern to create new patterns.<br />\nPlease note this class is not how to sew a pattern or how to make a pattern fit you.</p>",
+    "datetime": "2017-04-21T16:00:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "16:00",
+    "location": "Monroe",
+    "guest_list": [
+    "mollyweiss"
+    ],
+    "track": "Workshop"
+    },
+    {
+    "title": "Blademaster Tournament",
+    "event_id": "1359-blademastertournament",
+    "description": "<p>There are two ways to become a blademaster. Vie with other attendees for the chance to fight against a blademaster to become a blademaster.</p>",
+    "datetime": "2017-04-21T16:00:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "16:00",
+    "location": "Carter",
+    "guest_list": [
+    "baopham",
+    "chipmoore",
+    "kelceycasson",
+    "bengundersen"
+    ],
+    "track": "Main"
+    },
+    {
+    "title": "Book Spotlight: Mistborn 1",
+    "event_id": "1386-bookspotlightmistborn1",
+    "description": "<p>We discuss Mistborn as a novel. Topics include story structure and pacing, characterization, and how Brandon's style and skills have evolved since writing it.</p>",
+    "datetime": "2017-04-21T16:00:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "16:00",
+    "location": "Roosevelt",
+    "guest_list": [
+    "billytodd",
+    "traecooper",
+    "tedherman"
+    ],
+    "track": "The Worlds of Brandon Sanderson"
+    },
+    {
+    "title": "Plotting with Story Structure",
+    "event_id": "1319-plottingwithstorystructure",
+    "description": "<p>Whether using the 3-Act format or the Hero's Journey, structure is what makes a story readable, and sometimes even writeable.</p>",
+    "datetime": "2017-04-21T16:00:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "16:00",
+    "location": "Madison",
+    "guest_list": [
+    "bluecole",
+    "jasondenzel",
+    "ellieraine",
+    "jasutherland"
+    ],
+    "track": "Writers"
+    },
+    {
+    "title": "Streaming Atmo: The Past, Present, and Future of Military SF",
+    "event_id": "1393-streamingatmothepastpresentandfutureofmilitarysf",
+    "description": "<p>Military Science Fiction has been a staple of the greater genre for a long time. Indeed some of the earliest science fiction touched on war and the terrible consequences of conflict. Military SF is changing and evolving year by year, so let's discuss where we have come from and where we are going.</p>",
+    "datetime": "2017-04-21T16:00:00.000Z",
+    "day": "2017-04-21T00:00:00.000Z",
+    "time": "16:00",
+    "location": "Tyler",
+    "guest_list": [
+    "seanhillman",
+    "charlesegannon"
+    ],
+    "track": "Rivets & Robots"
+    }
+  ],
   "guests": [
     {
       "guest_id": "ebonyadomanis",

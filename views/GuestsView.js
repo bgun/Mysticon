@@ -6,6 +6,7 @@ import React from 'react';
 import {
   InteractionManager,
   ListView,
+  SafeAreaView,
   StyleSheet,
   Text,
   View
@@ -19,6 +20,7 @@ import GuestItem from '../components/GuestItem';
 export default class GuestsView extends React.Component {
 
   static navigationOptions = {
+    title: "Schedule",
     tabBarLabel: "Guests",
     tabBarIcon: ({ tintColor }) => (
       <Icon name="users" size={ 24 } color={ tintColor } />
@@ -36,11 +38,13 @@ export default class GuestsView extends React.Component {
 
   render() {
     return (
-      <ListView
-        style={ styles.scroll }
-        dataSource={ this.state.dataSource }
-        renderRow={ rowData => <GuestItem key={ rowData.guest_id } guest_id={ rowData.guest_id } /> }
-      />
+      <SafeAreaView style={{ flex: 1, backgroundColor: '#FFF' }}>
+        <ListView
+          style={ styles.scroll }
+          dataSource={ this.state.dataSource }
+          renderRow={ rowData => <GuestItem navigation={ this.props.navigation } key={ rowData.guest_id } guest_id={ rowData.guest_id } /> }
+        />
+      </SafeAreaView>
     );
   }
 
