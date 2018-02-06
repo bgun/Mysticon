@@ -7,7 +7,9 @@ import {
   AsyncStorage
 } from 'react-native' ;
 
-import con_info from './con_info.json';
+
+import packageJson from './package.json';
+
 
 let fetchOptions = {
   headers: {
@@ -21,7 +23,7 @@ export default {
 
   fetchFromNetwork: () => {
     return new Promise((resolve, reject) => {
-      fetch(con_info.DATA_SOURCE, fetchOptions)
+      fetch(packageJson.CON_INFO_URL, fetchOptions)
         .then(resp => resp.json())
         .then(data => {
           resolve(data);
