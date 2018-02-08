@@ -15,10 +15,10 @@ import {
 
 import { StackRouter, TabNavigator, StackNavigator } from 'react-navigation';
 
-import DashboardView   from './DashboardView';
-import ScheduleNavigator    from './ScheduleNavigator';
-import GuestsView      from './GuestsView';
-import MoreView        from './MoreView';
+import DashboardStack from './DashboardScreen';
+import ScheduleStack  from './ScheduleScreen';
+import GuestsStack    from './GuestsScreen';
+import MoreStack      from './MoreScreen';
 
 import Toast from '../components/Toast';
 
@@ -28,26 +28,26 @@ import globalStyles from '../globalStyles';
 
 let MainNavigator = TabNavigator({
   Home: {
-    screen: DashboardView,
+    screen: DashboardStack,
     path: ''
   },
   Schedule: {
-    screen: ScheduleNavigator,
+    screen: ScheduleStack,
     path: 'schedule'
   },
   Guests: {
-    screen: GuestsView,
+    screen: GuestsStack,
     path: 'guests'
   },
   More: {
-    screen: MoreView,
+    screen: MoreStack,
     path: 'more'
   }
 }, {
-  initialRouteName: 'Home'
+  tabBarPosition: 'bottom'
 });
 
-export default class MainView extends React.Component {
+export default class MainScreen extends React.Component {
 
   constructor() {
     super();

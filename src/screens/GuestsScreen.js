@@ -12,12 +12,17 @@ import {
   View
 } from 'react-native';
 
+import { StackNavigator } from 'react-navigation'
+
 import Icon from 'react-native-vector-icons/Entypo';
 
 import GuestItem from '../components/GuestItem';
 
+import GuestDetailScreen from './GuestDetailScreen';
+import EventDetailScreen from './EventDetailScreen';
 
-export default class GuestsView extends React.Component {
+
+class GuestsList extends React.Component {
 
   static navigationOptions = {
     title: "Guests",
@@ -48,6 +53,20 @@ export default class GuestsView extends React.Component {
   }
 
 }
+
+export default StackNavigator({
+  "GuestsList"  : { screen: GuestsList },
+  "EventDetail" : { screen: EventDetailScreen },
+  "GuestDetail" : { screen: GuestDetailScreen }
+}, {
+  navigationOptions: {
+    tabBarLabel: "Guests",
+    tabBarIcon: ({ tintColor }) => (
+      <Icon name="users" size={ 24 } color={ tintColor } />
+    )
+  }
+});
+
 
 const styles = StyleSheet.create({
   scroll: {

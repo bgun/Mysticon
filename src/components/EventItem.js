@@ -19,26 +19,36 @@ import globalStyles from '../globalStyles';
 
 export default class EventItem extends Component {
 
-  render() {
-    const { navigate } = this.props.navigation;
-    console.log(this.props.navigation);
+  constructor(props) {
+    super();
 
-    let event = _.find(global.con_data.events, e => (e.event_id === this.props.event_id));
+    let event = _.find(global.con_data.events, e => (e.event_id === props.event_id));
     if (!event) {
       throw new Error("Event not found!");
     }
-    let isTodo = global.todos.has(event.event_id);
-    let formatDate = moment.utc(event.datetime).format('dddd h:mma');
+
+    this.state = {
+      event_id: event.event_id,
+      title: event.title,
+      location: event.location,
+      datetime: moment(event.day+" "+event.time).format('dddd h:mma'),
+      isTodo: global.todos.has(event.event_id)
+    };
+  }
+
+  render() {
+    const { navigate } = this.props.navigation;
+
     return (
-      <TouchableOpacity style={[globalStyles.floatingListItem, styles.item]} onPress={ () => navigate("EventDetail", { event_id: event.event_id }) }>
+      <TouchableOpacity style={[globalStyles.floatingListItem, styles.item]} onPress={ () => navigate("EventDetail", { event_id: this.state.event_id }) }>
         <View style={{ flex: 1 }}>
-          <Text style={ styles.titleText }>{ event.title }</Text>
+          <Text style={ styles.titleText }>{ this.state.title }</Text>
           <View style={{ flexDirection: 'row' }}>
-            <Text style={ styles.timeText  }>{ formatDate }</Text>
-            <Text style={ styles.locationText  }>{ event.location }</Text>
+            <Text style={ styles.timeText  }>{ this.state.datetime }</Text>
+            <Text style={ styles.locationText  }>{ this.state.location }</Text>
           </View>
         </View>
-        { isTodo ? (
+        { this.state.isTodo ? (
           <Icon name="star" color={ globalStyles.COLORS.highlight } size={20} style={{ paddingTop: 8, paddingRight: 8 }} />
         ) : null }
       </TouchableOpacity>

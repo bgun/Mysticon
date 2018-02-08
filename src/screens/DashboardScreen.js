@@ -44,7 +44,7 @@ export default class DashboardView extends Component {
     this.getTodos();
   }
 
-  componentWillReceiveProps() {
+  componentWillUpdate() {
     this.getTodos();
   }
 
@@ -54,8 +54,9 @@ export default class DashboardView extends Component {
         .then(todos => {
           let todosArray = Array.from(todos);
           todosArray = _(todosArray).map(todo => {
+            console.log(todo);
             return _.find(global.con_data.events, e => e.event_id === todo);
-          }).sortBy("datetime").value();
+          }).filter(todo => !!todo).sortBy(["day", "time"]).value();
 
           this.setState({
             dataSource: this.state.dataSource.cloneWithRows(todosArray),

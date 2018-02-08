@@ -10,19 +10,25 @@ import {
   View
 } from 'react-native'
 
+import { StackNavigator } from 'react-navigation'
+
 import Icon from 'react-native-vector-icons/Entypo';
 
 import globalStyles from '../globalStyles';
 
 let window = Dimensions.get('window');
 
+import DirectionsScreen from './DirectionsScreen';
+import FeedbackScreen   from './FeedbackScreen';
+import AboutScreen      from './AboutScreen';
+
 
 class MenuItem extends React.Component {
 
   render() {
     return (
-      <TouchableOpacity style={ styles.menuItem } onPress={ () => this.props.navigator.navigate(this.props.link) }>
-        <Icon name={ this.props.icon } size={16} color="white"/>
+      <TouchableOpacity style={ styles.menuItem } onPress={ () => this.props.navigation.navigate(this.props.link) }>
+        <Icon name={ this.props.icon } size={16} />
         <View style={{ width: 16 }} />
         <Text style={ styles.menuItemText }>{ this.props.text }</Text>
       </TouchableOpacity>
@@ -30,7 +36,7 @@ class MenuItem extends React.Component {
   }
 }
 
-export default class MoreView extends React.Component {
+class MoreScreen extends React.Component {
 
   static navigationOptions = {
     title: "More",
@@ -43,11 +49,11 @@ export default class MoreView extends React.Component {
   render() {
     return (
       <ScrollView style={ styles.container }>
-        <MenuItem key="directions" link="directions" text="Maps & Directions" icon="map"    />
-        <MenuItem key="gaming"     link="gaming"     text="Gaming"            icon="pencil" />
-        <MenuItem key="feedback"   link="feedback"   text="Feedback"          icon="pencil" />
-        <MenuItem key="newsfeed"   link="newsFeed"   text="News & Updates"    icon="bell"   />
-        <MenuItem key="about"      link="about"      text="About"             icon="help"   />
+        <MenuItem key="directions" link="Directions" text="Maps & Directions" icon="map"    { ...this.props } />
+        <MenuItem key="gaming"     link="Gaming"     text="Gaming"            icon="pencil" { ...this.props } />
+        <MenuItem key="feedback"   link="Feedback"   text="Feedback"          icon="pencil" { ...this.props } />
+        <MenuItem key="newsfeed"   link="NewsFeed"   text="News & Updates"    icon="bell"   { ...this.props } />
+        <MenuItem key="about"      link="About"      text="About"             icon="help"   { ...this.props } />
       </ScrollView>
     )
   }
@@ -59,7 +65,6 @@ let styles = StyleSheet.create({
     backgroundColor: '#FFF',
     flex: 1,
     height: window.height,
-    paddingTop: 40
   },
   menuItem: {
     borderBottomColor: '#00000033',
@@ -71,4 +76,11 @@ let styles = StyleSheet.create({
   menuItemText: {
     fontSize: 16
   }
+});
+
+
+export default StackNavigator({
+  MoreScreen: { screen: MoreScreen },
+  Directions: { screen: DirectionsScreen },
+  About:      { screen: AboutScreen }
 });

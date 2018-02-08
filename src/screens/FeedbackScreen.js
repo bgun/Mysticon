@@ -11,15 +11,13 @@ import {
   View
 } from 'react-native';
 
-import { Actions } from 'react-native-router-flux';
-
 import globalStyles from '../globalStyles';
 
 import GuestItem from '../components/GuestItem';
 import { H1, H2, H3, H4 } from '../components/Headings';
 
 
-export default class FeedbackView extends Component {
+export default class FeedbackScreen extends Component {
 
   constructor() {
     super();
@@ -38,7 +36,6 @@ export default class FeedbackView extends Component {
       global.makeToast("You haven't entered any text yet!");
       return;
     }
-    Actions.pop();
     fetch(url, {
       method: 'POST',
       headers: {
@@ -83,12 +80,6 @@ export default class FeedbackView extends Component {
     );
   }
 }
-FeedbackView.propTypes = {
-  subject: React.PropTypes.string.isRequired
-};
-FeedbackView.defaultProps = {
-  subject: "Mysticon"
-};
 
 const styles = StyleSheet.create({
   view: {

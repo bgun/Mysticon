@@ -8,7 +8,7 @@ import {
 } from 'react-native' ;
 
 
-import packageJson from './package.json';
+import packageJson from '../package.json';
 
 
 let fetchOptions = {

@@ -16,7 +16,12 @@ import {
 import moment from 'moment';
 import _ from 'lodash';
 
+import { StackNavigator } from 'react-navigation';
+
 import EventItem from '../components/EventItem';
+
+import EventDetailScreen from './EventDetailScreen';
+import GuestDetailScreen from './GuestDetailScreen';
 
 import globalStyles from '../globalStyles';
 
@@ -26,7 +31,8 @@ let window = Dimensions.get('window');
 
 let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-export default class ScheduleView extends Component {
+
+class ScheduleScreen extends Component {
 
   static navigationOptions = {
     title: "Schedule"
@@ -48,11 +54,11 @@ export default class ScheduleView extends Component {
     let rowIDs     = [];
     let currentDay = null;
 
-    _.sortBy(global.con_data.events, 'day').forEach(e => {
-      let d = moment.utc(e.day, "YYYY-MM-DDThh:mm:ss");
+    _.sortBy(global.con_data.events, ["day", "time"]).forEach(e => {
+      let d = moment(e.day+e.time, "YYYY-MM-DDThh:mm:ss");
       let day = days[d.day()];
       if (day !== currentDay) {
-        console.log("new day", d.day());
+        console.log("new day", d, d.day());
         sectionIDs.push(day);
         dataBlob[day] = d;
         rowIDs.push([]);
@@ -134,6 +140,22 @@ export default class ScheduleView extends Component {
     );
   }
 }
+
+export default StackNavigator({
+  "Schedule":     { screen: ScheduleScreen },
+  "EventDetail" : { screen: EventDetailScreen },
+  "GuestDetail" : { screen: GuestDetailScreen }
+}, {
+  navigationOptions: {
+    tabBarLabel: "Schedule",
+    tabBarIcon: ({ tintColor }) => (
+      <Icon name="calendar" size={ 24 } color={ tintColor } />
+    )
+  }
+});
+
+
+
 
 const styles = StyleSheet.create({
   filterContainer: {

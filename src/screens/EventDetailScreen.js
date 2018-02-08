@@ -23,7 +23,7 @@ import TodoButton     from '../components/TodoButton';
 import { H1, H2, H3, H4 } from '../components/Headings';
 
 
-export default class EventDetailView extends Component {
+export default class EventDetailScreen extends Component {
 
   render() {
     let event_id = this.props.navigation.state.params.event_id;
@@ -32,7 +32,7 @@ export default class EventDetailView extends Component {
       Alert.alert("Event "+event.event_id+" not found!");
       return null;
     }
-    let formatDate = moment.utc(event.datetime).format('dddd h:mma');
+    let formatDate = moment(event.day+" "+event.time).format('dddd h:mma');
     return (
       <ScrollView style={ styles.view }>
         <H1 style={ globalStyles.h1 }>{ event.title }</H1>

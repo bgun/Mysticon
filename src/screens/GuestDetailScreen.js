@@ -73,7 +73,7 @@ ExpandableText.defaultProps = {
   max: 140
 };
 
-export default class GuestDetailView extends Component {
+export default class GuestDetailScreen extends Component {
 
   render() {
     let guest_id = this.props.navigation.state.params.guest_id;
