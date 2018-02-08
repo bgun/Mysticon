@@ -1,6 +1,7 @@
 'use strict';
 
 import React, { Component } from 'react';
+import Mailgun from 'mailgun-js';
 
 import {
   ScrollView,
@@ -31,7 +32,26 @@ export default class FeedbackScreen extends Component {
   }
 
   handlePress() {
-    let url = 'http://con-nexus.bgun.me/api/feedback';
+
+    let api_key = 'pubkey-05f2a1e4fd4bed1ea7772703a9a7ed96';
+    let domain = 'con-nexus.bgun.me';
+    let mailgun = Mailgun({apiKey: api_key, domain: domain});
+    
+    var data = {
+      from: 'Excited User <me@samples.mailgun.org>',
+      to: 'ben@bengundersen.com',
+      subject: 'Hello',
+      text: 'Testing some Mailgun awesomeness!'
+    };
+    
+    mailgun.messages().send(data, function (error, body) {
+      console.log(body);
+    });
+    return;
+
+    let MAILGUN_API_KEY = "pubkey-05f2a1e4fd4bed1ea7772703a9a7ed96";
+    // let url = 'http://con-nexus.bgun.me/api/feedback';
+    let url = "https://api.mailgun.net/v3/con-nexus.bgun.me/messages";
     if (!this.state.text) {
       global.makeToast("You haven't entered any text yet!");
       return;
@@ -40,16 +60,20 @@ export default class FeedbackScreen extends Component {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Authorization': 'Basic ' + base64.encode("api:" +MAILGUN_API_KEY)
       },
       body: JSON.stringify({
-        con_id: 'mysticon2016',
+        from: "ben@con-nexus.bgun.me",
+        to: "ben@bengundersen.com",
         subject: this.props.subject,
         text: this.state.text
       })
-    }).then(() => {
+    }).then(resp => {
+      console.log(resp);
       global.makeToast("Feedback submitted. Thank you!");
-    }).catch(() => {
+    }).catch(e => {
+      console.log("email error", e);
       global.makeToast("Error submitting feedback");
     });
   }

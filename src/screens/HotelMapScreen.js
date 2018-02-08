@@ -18,7 +18,7 @@ import globalStyles from '../globalStyles';
 let window = Dimensions.get('window');
 
 
-export default class HotelMapView extends React.Component {
+export default class HotelMapScreen extends React.Component {
 
   static navigationOptions = {
     title: "Hotel Map"
@@ -85,8 +85,8 @@ export default class HotelMapView extends React.Component {
       <View style={ styles.container } {...this._panResponder.panHandlers}>
         <Image
           style={[ styles.map, { left: this.state.mapX, top: this.state.mapY} ]}
-          source={ require('../img/hotel_map.png') }
-          />
+          source={{ uri: global.con_data.images.HOTEL_MAP }}
+        />
       </View>
     );
   }

@@ -18,9 +18,10 @@ import globalStyles from '../globalStyles';
 
 let window = Dimensions.get('window');
 
+import AboutScreen      from './AboutScreen';
 import DirectionsScreen from './DirectionsScreen';
 import FeedbackScreen   from './FeedbackScreen';
-import AboutScreen      from './AboutScreen';
+import HotelMapScreen   from './HotelMapScreen';
 
 
 class MenuItem extends React.Component {
@@ -37,14 +38,6 @@ class MenuItem extends React.Component {
 }
 
 class MoreScreen extends React.Component {
-
-  static navigationOptions = {
-    title: "More",
-    tabBarLabel: "More",
-    tabBarIcon: ({ tintColor }) => (
-      <Icon name="dots-three-horizontal" size={ 24 } color={ tintColor } />
-    )
-  };
 
   render() {
     return (
@@ -80,7 +73,17 @@ let styles = StyleSheet.create({
 
 
 export default StackNavigator({
-  MoreScreen: { screen: MoreScreen },
-  Directions: { screen: DirectionsScreen },
-  About:      { screen: AboutScreen }
+  MoreScreen :  { screen: MoreScreen },
+  Directions : { screen: DirectionsScreen },
+  About      : { screen: AboutScreen },
+  HotelMap   : { screen: HotelMapScreen },
+  Feedback   : { screen: FeedbackScreen }
+}, {
+  navigationOptions: {
+    title: "More",
+    tabBarLabel: "More",
+    tabBarIcon: ({ tintColor }) => (
+      <Icon name="dots-three-horizontal" size={ 24 } color={ tintColor } />
+    )
+  }
 });
