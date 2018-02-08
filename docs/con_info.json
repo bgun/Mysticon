@@ -5,266 +5,2388 @@
   },
   "styles": {
   },
-  "events": [
-    {
-      "title": "Opening Ceremonies",
-      "event_id": "1357-openingceremonies",
-      "description": "<p>Welcome to our ninth annual JordanCon's Opening Ceremonies Extravaganza!</p>",
-      "datetime": "2017-04-21T13:00:00.000Z",
-      "day": "2017-04-21T00:00:00.000Z",
-      "time": "13:00",
-      "location": "Carter",
-      "guest_list": [],
-      "track": "Main"
-    },
-    {
-      "title": "WoT for Beginners",
-      "event_id": "1301-wotforbeginners",
-      "description": "<p>New to the Wheel? Reading but not finished? Tagging along with a friend or significant other? Come to our orientation; we'll take questions and avoid spoilers.</p>",
-      "datetime": "2017-04-21T14:30:00.000Z",
-      "day": "2017-04-21T00:00:00.000Z",
-      "time": "14:30",
-      "location": "Jackson",
-      "guest_list": [
-        "ebonyadomanis",
-        "aubreepham",
-        "theresagray"
-      ],
-      "track": "World of the Wheel"
-    },
-    {
-      "title": "Blademaster Practice Session",
-      "event_id": "1358-blademasterpracticesession",
-      "description": "<p>Come practice for the Blademaster tournament.</p>",
-      "datetime": "2017-04-21T14:30:00.000Z",
-      "day": "2017-04-21T00:00:00.000Z",
-      "time": "14:30",
-      "location": "Carter",
-      "guest_list": [
-        "baopham",
-        "chipmoore",
-        "kelceycasson",
-        "bengundersen"
-      ],
-      "track": "Main"
-    },
-    {
-      "title": "Meet the Bird Whisperers!",
-      "event_id": "1330-meetthebirdwhisperers",
-      "description": "<p>Amanda Makepeace and Melissa Gay, founders of the #BirdWhispereProject, share the art that results when artists celebrate a shared love of our feathered friends by using the same visual references for their work.</p>",
-      "datetime": "2017-04-21T14:30:00.000Z",
-      "day": "2017-04-21T00:00:00.000Z",
-      "time": "14:30",
-      "location": "Washington",
-      "guest_list": [
-        "melissagay",
-        "amandamakepeace"
-      ],
-      "track": "Art Show"
-      },
-    {
-    "title": "Welcome to the Potterverse",
-    "event_id": "1407-welcometothepotterverse",
-    "description": "<p>Harry Potter, Hogwarts, Marauders, Fantastic Beasts, Cursed Child, Wizarding World, books, movies, theme parks. Let's discuss J.K. Rowling's universe.</p>",
-    "datetime": "2017-04-21T14:30:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "14:30",
-    "location": "Jefferson",
-    "guest_list": [
-    "thomdesimone",
-    "erindesimone",
-    "darinmbush"
-    ],
-    "track": "Swords & Sorcery"
-    },
-    {
-    "title": "Art Show & Dealer Hall - Open for Business",
-    "event_id": "1420-artshowdealerhallopenforbusiness",
-    "description": "<p>The Art Show & Dealer Hall is open from 2:30 PM until 7 PM on Friday. </p>\n<p>The JordanCon Charity Auction team will be stationed in the middle of the Dealer Hall during regular business hours to accept your donations for <a href=\"/content/charity-auction\" target=\"_blank\">Saturday's Charity Auction</a> to benefit the Mayo Clinic's Amyloidosis research. </p>",
-    "datetime": "2017-04-21T14:30:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "14:30",
-    "location": "Salon A",
-    "guest_list": [
-    "paulbielaczyc",
-    "aprilmoore"
-    ],
-    "track": "Art Show"
-    },
-    {
-    "title": "Bringing Your Writing To Your Game",
-    "event_id": "1317-bringingyourwritingtoyourgame",
-    "description": "<p>Games are written too! Whether a board game with lore and story, or a DM's homebrewed campaign setting, the craft has many applications.</p>",
-    "datetime": "2017-04-21T14:30:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "14:30",
-    "location": "Madison",
-    "guest_list": [
-    "michaelbielaczyc",
-    "charlesegannon",
-    "jonhermsen"
-    ],
-    "track": "Writers"
-    },
-    {
-    "title": "Painting an Art Nouveau Lady",
-    "event_id": "1289-paintinganartnouveaulady",
-    "description": "<p>Video demo of a painting from the planning stages to the finished product. Including a hands on practice for how to get the hair right. Learn from a professional about basic tools and resources to get started with watercolor, with participants Q&As.</p>",
-    "datetime": "2017-04-21T14:30:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "14:30",
-    "location": "Monroe",
-    "guest_list": [
-    "angelasasser"
-    ],
-    "track": "Workshop"
-    },
-    {
-    "title": "Reading: David B Coe and Jason Denzel",
-    "event_id": "1425-readingdavidbcoeandjasondenzel",
-    "description": "<p>Readings by Author Guests David B Coe and Jason Denzel</p>",
-    "datetime": "2017-04-21T14:30:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "14:30",
-    "location": "Twisted Oak",
-    "guest_list": [
-    "davidbcoe",
-    "jasondenzel"
-    ],
-    "track": "Readings"
-    },
-    {
-    "title": "Novellas and Short Stories",
-    "event_id": "1385-novellasandshortstories",
-    "description": "<p>Discussion of Brandon's shorter works. Includes those in Arcanum Unbounded and stand-alone works.</p>",
-    "datetime": "2017-04-21T14:30:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "14:30",
-    "location": "Roosevelt",
-    "guest_list": [
-    "billytodd",
-    "deanawhitney",
-    "ethansivek",
-    "karenmarks"
-    ],
-    "track": "The Worlds of Brandon Sanderson"
-    },
-    {
-    "title": "Darkfriend",
-    "event_id": "1433-darkfriend",
-    "description": "<p>Wheel of Time themed Werewolf! Come on down and play! Kill your friends as the Darkfriend or Hunt some Darkfriends as one of the villagers!</p>",
-    "datetime": "2017-04-21T14:30:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "14:30",
-    "location": "Table 1",
-    "guest_list": [],
-    "track": "Gaming"
-    },
-    {
-    "title": "Science Facts: 2016 - 2017",
-    "event_id": "1392-sciencefacts20162017",
-    "description": "<p>A great way to start off the convention is by hitting the science in our Science Fiction right off the bat. As we do every year, the panelists will discuss a selection of science topics from the previous and current year. Audience participation is encouraged. If you have a science specialty of your own, definitely come and share the exciting news from your profession. In addition, we will discuss how these new discoveries affect our Science Fiction creations.</p>",
-    "datetime": "2017-04-21T14:30:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "14:30",
-    "location": "Tyler",
-    "guest_list": [
-    "seanhillman",
-    "nancymccullough"
-    ],
-    "track": "Rivets & Robots"
-    },
-    {
-    "title": "Introduction to Flat Pattern Alterations",
-    "event_id": "1352-introductiontoflatpatternalterations",
-    "description": "<p>Ever had a pattern you love, but it needs a few changes to work for a new outfit?<br />\nLearn to alter your patterns so you don't have to buy a new one every time. Learn to alter the final look of a design with a few simple changes. </p>\n<p>Students will practice various methods with a paper bodice pattern to create new patterns.<br />\nPlease note this class is not how to sew a pattern or how to make a pattern fit you.</p>",
-    "datetime": "2017-04-21T16:00:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "16:00",
-    "location": "Monroe",
-    "guest_list": [
-    "mollyweiss"
-    ],
-    "track": "Workshop"
-    },
-    {
-    "title": "Blademaster Tournament",
-    "event_id": "1359-blademastertournament",
-    "description": "<p>There are two ways to become a blademaster. Vie with other attendees for the chance to fight against a blademaster to become a blademaster.</p>",
-    "datetime": "2017-04-21T16:00:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "16:00",
-    "location": "Carter",
-    "guest_list": [
-    "baopham",
-    "chipmoore",
-    "kelceycasson",
-    "bengundersen"
-    ],
-    "track": "Main"
-    },
-    {
-    "title": "Book Spotlight: Mistborn 1",
-    "event_id": "1386-bookspotlightmistborn1",
-    "description": "<p>We discuss Mistborn as a novel. Topics include story structure and pacing, characterization, and how Brandon's style and skills have evolved since writing it.</p>",
-    "datetime": "2017-04-21T16:00:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "16:00",
-    "location": "Roosevelt",
-    "guest_list": [
-    "billytodd",
-    "traecooper",
-    "tedherman"
-    ],
-    "track": "The Worlds of Brandon Sanderson"
-    },
-    {
-    "title": "Plotting with Story Structure",
-    "event_id": "1319-plottingwithstorystructure",
-    "description": "<p>Whether using the 3-Act format or the Hero's Journey, structure is what makes a story readable, and sometimes even writeable.</p>",
-    "datetime": "2017-04-21T16:00:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "16:00",
-    "location": "Madison",
-    "guest_list": [
-    "bluecole",
-    "jasondenzel",
-    "ellieraine",
-    "jasutherland"
-    ],
-    "track": "Writers"
-    },
-    {
-    "title": "Streaming Atmo: The Past, Present, and Future of Military SF",
-    "event_id": "1393-streamingatmothepastpresentandfutureofmilitarysf",
-    "description": "<p>Military Science Fiction has been a staple of the greater genre for a long time. Indeed some of the earliest science fiction touched on war and the terrible consequences of conflict. Military SF is changing and evolving year by year, so let's discuss where we have come from and where we are going.</p>",
-    "datetime": "2017-04-21T16:00:00.000Z",
-    "day": "2017-04-21T00:00:00.000Z",
-    "time": "16:00",
-    "location": "Tyler",
-    "guest_list": [
-    "seanhillman",
-    "charlesegannon"
-    ],
-    "track": "Rivets & Robots"
-    }
-  ],
-  "guests": [
-    {
-      "guest_id": "ebonyadomanis",
-      "name": "Ebony Adomanis"
-    },
-    {
-      "guest_id": "aubreepham",
-      "name": "Aubree Pham"
-    },
-    {
-      "guest_id": "theresagray",
-      "name": "Theresa Gray"
-    },
-    {
-      "guest_id": "sakimarieharp",
-      "name": "Saki Marie Harp"
-    }
-  ]
+	"con_id": "mysticon2018",
+	"lat": 33.917376,
+	"lon": -84.345061,
+	"name": "Mysticon 2017",
+	"updated_at": "2018-02-08T01:40:32.135Z",
+	"guests": [{
+		"name": "Moderator / Presenter",
+		"guest_id": "moderatorpresenter"
+	}, {
+		"name": "Panelist1",
+		"guest_id": "panelist1"
+	}, {
+		"name": "Panelist2",
+		"guest_id": "panelist2"
+	}, {
+		"name": "Panelist3",
+		"guest_id": "panelist3"
+	}, {
+		"name": "Panelist4",
+		"guest_id": "panelist4"
+	}, {
+		"name": "Panelist5",
+		"guest_id": "panelist5"
+	}, {
+		"name": "Panelist6",
+		"guest_id": "panelist6"
+	}, {
+		"name": "Crymsyn Hart",
+		"guest_id": "crymsynhart"
+	}, {
+		"name": "Kim Headlee",
+		"guest_id": "kimheadlee"
+	}, {
+		"name": "Tera Fulbright",
+		"guest_id": "terafulbright"
+	}, {
+		"name": "Darin Kennedy",
+		"guest_id": "darinkennedy"
+	}, {
+		"name": "James Gaines",
+		"guest_id": "jamesgaines"
+	}, {
+		"name": "Les Johnson",
+		"guest_id": "lesjohnson"
+	}, {
+		"name": "Liz Long",
+		"guest_id": "lizlong"
+	}, {
+		"name": "SH Roddey",
+		"guest_id": "shroddey"
+	}, {
+		"name": "Jason Gilbert",
+		"guest_id": "jasongilbert"
+	}, {
+		"name": "Syrinx",
+		"guest_id": "syrinx"
+	}, {
+		"name": "The Flynnstress",
+		"guest_id": "theflynnstress"
+	}, {
+		"name": "Rich Sigfrit",
+		"guest_id": "richsigfrit"
+	}, {
+		"name": "Alex Matsuo",
+		"guest_id": "alexmatsuo"
+	}, {
+		"name": "Carol the Cat",
+		"guest_id": "carolthecat"
+	}, {
+		"name": "Steven S. Long",
+		"guest_id": "stevenslong"
+	}, {
+		"name": "Eddie's Teddy",
+		"guest_id": "eddiesteddy"
+	}, {
+		"name": "Janet Carden",
+		"guest_id": "janetcarden"
+	}, {
+		"name": "John Watts",
+		"guest_id": "johnwatts"
+	}, {
+		"name": "Roger Carden",
+		"guest_id": "rogercarden"
+	}, {
+		"name": "Travis Sivart",
+		"guest_id": "travissivart"
+	}, {
+		"name": "Shawn Walton",
+		"guest_id": "shawnwalton"
+	}, {
+		"name": "Billy Flynn",
+		"guest_id": "billyflynn"
+	}, {
+		"name": "Clare Kramer",
+		"guest_id": "clarekramer"
+	}, {
+		"name": "Abigail Wallace",
+		"guest_id": "abigailwallace"
+	}, {
+		"name": "Richard C. White",
+		"guest_id": "richardcwhite"
+	}, {
+		"name": "Anita Bruckert",
+		"guest_id": "anitabruckert"
+	}, {
+		"name": "Zach Callison",
+		"guest_id": "zachcallison"
+	}, {
+		"name": "Fraser Sherman",
+		"guest_id": "frasersherman"
+	}, {
+		"name": "Joe R. Landsdale",
+		"guest_id": "joerlandsdale"
+	}, {
+		"name": "Pamela K. Kinney",
+		"guest_id": "pamelakkinney"
+	}, {
+		"name": "Shawnee Small",
+		"guest_id": "shawneesmall"
+	}, {
+		"name": "Stuart Jaffe",
+		"guest_id": "stuartjaffe"
+	}, {
+		"name": "Dave Harlequin",
+		"guest_id": "daveharlequin"
+	}, {
+		"name": "Bridget Muncy",
+		"guest_id": "bridgetmuncy"
+	}, {
+		"name": "Charming Charley",
+		"guest_id": "charmingcharley"
+	}, {
+		"name": "Jillian Ryan",
+		"guest_id": "jillianryan"
+	}, {
+		"name": "Tally Johnson",
+		"guest_id": "tallyjohnson"
+	}, {
+		"name": "Mark MacDicken",
+		"guest_id": "markmacdicken"
+	}, {
+		"name": "Matthew Penick",
+		"guest_id": "matthewpenick"
+	}, {
+		"name": "Samantha Bryant",
+		"guest_id": "samanthabryant"
+	}, {
+		"name": "John Johnson",
+		"guest_id": "johnjohnson"
+	}, {
+		"name": "Lou Antonelli",
+		"guest_id": "louantonelli"
+	}, {
+		"name": "The Giddy Geeker",
+		"guest_id": "thegiddygeeker"
+	}, {
+		"name": "N/A",
+		"guest_id": "na"
+	}, {
+		"name": "Jim Beall",
+		"guest_id": "jimbeall"
+	}, {
+		"name": "Benjamen Walton",
+		"guest_id": "benjamenwalton"
+	}, {
+		"name": "Haley Walton",
+		"guest_id": "haleywalton"
+	}, {
+		"name": "Kaishen Walton",
+		"guest_id": "kaishenwalton"
+	}, {
+		"name": "Mike Pederson",
+		"guest_id": "mikepederson"
+	}, {
+		"name": "Bridget Muncey",
+		"guest_id": "bridgetmuncey"
+	}, {
+		"name": "Ginger Snaps",
+		"guest_id": "gingersnaps"
+	}, {
+		"name": "Alexandra Christian",
+		"guest_id": "alexandrachristian"
+	}, {
+		"name": "Michael David Anderson",
+		"guest_id": "michaeldavidanderson"
+	}, {
+		"name": "Erin Ashley",
+		"guest_id": "erinashley"
+	}, {
+		"name": "J. Kyle McNeal",
+		"guest_id": "jkylemcneal"
+	}, {
+		"name": "Melissa McArthur",
+		"guest_id": "melissamcarthur"
+	}, {
+		"name": "Meredith Bowman-Shelton",
+		"guest_id": "meredithbowmanshelton"
+	}, {
+		"name": "Peter Prellwitz",
+		"guest_id": "peterprellwitz"
+	}, {
+		"name": "John Gaines",
+		"guest_id": "johngaines"
+	}, {
+		"name": "Mike Allen",
+		"guest_id": "mikeallen"
+	}, {
+		"name": "Carla Brindle",
+		"guest_id": "carlabrindle"
+	}, {
+		"name": "Bella Morte",
+		"guest_id": "bellamorte"
+	}, {
+		"name": "Geek Radio Daily-Billy",
+		"guest_id": "geekradiodailybilly"
+	}, {
+		"name": "Geek Radio Daily-The Flynnstress",
+		"guest_id": "geekradiodailytheflynnstress"
+	}, {
+		"name": "Jaysen Buterin",
+		"guest_id": "jaysenbuterin"
+	}, {
+		"name": "R.S. Belcher",
+		"guest_id": "rsbelcher"
+	}, {
+		"name": "Jim Gaines",
+		"guest_id": "jimgaines"
+	}, {
+		"name": "Angel Metro",
+		"guest_id": "angelmetro"
+	}, {
+		"name": "The Vailix",
+		"guest_id": "thevailix"
+	}, {
+		"name": "Angela Pritchett",
+		"guest_id": "angelapritchett"
+	}, {
+		"name": "David Lee",
+		"guest_id": "davidlee"
+	}, {
+		"name": "MxKnowitall",
+		"guest_id": "mxknowitall"
+	}, {
+		"name": "S.C. Houff",
+		"guest_id": "schouff"
+	}, {
+		"name": "Dr. Daniel Wallace",
+		"guest_id": "drdanielwallace"
+	}, {
+		"name": "Rob Richmond",
+		"guest_id": "robrichmond"
+	}, {
+		"name": "M. Jason Turner",
+		"guest_id": "mjasonturner"
+	}, {
+		"name": "John L. French",
+		"guest_id": "johnlfrench"
+	}, {
+		"name": "Once More with Amber",
+		"guest_id": "oncemorewithamber"
+	}, {
+		"name": "Bill Mulligan",
+		"guest_id": "billmulligan"
+	}, {
+		"name": "Christine Parker",
+		"guest_id": "christineparker"
+	}, {
+		"name": "Dan Sellers",
+		"guest_id": "dansellers"
+	}, {
+		"name": "Sammie Cassell",
+		"guest_id": "sammiecassell"
+	}, {
+		"name": "Jason T. Graves",
+		"guest_id": "jasontgraves"
+	}, {
+		"name": "The Library Bards",
+		"guest_id": "thelibrarybards"
+	}, {
+		"name": "Wednesday Mourning",
+		"guest_id": "wednesdaymourning"
+	}, {
+		"name": "Mariah Johnson",
+		"guest_id": "mariahjohnson"
+	}, {
+		"name": "Anita Allen",
+		"guest_id": "anitaallen"
+	}, {
+		"name": "Mark Davis",
+		"guest_id": "markdavis"
+	}, {
+		"name": "Amanda J. McGee",
+		"guest_id": "amandajmcgee"
+	}, {
+		"name": "Myron Smith",
+		"guest_id": "myronsmith"
+	}, {
+		"name": "Shawn Durington",
+		"guest_id": "shawndurington"
+	}, {
+		"name": "Abby Wallace",
+		"guest_id": "abbywallace"
+	}, {
+		"name": "Allen Wold",
+		"guest_id": "allenwold"
+	}, {
+		"name": "Darrel Little",
+		"guest_id": "darrellittle"
+	}, {
+		"name": "Gary Yohe",
+		"guest_id": "garyyohe"
+	}, {
+		"name": "Kevin Hines",
+		"guest_id": "kevinhines"
+	}, {
+		"name": "Christopher Moore",
+		"guest_id": "christophermoore"
+	}, {
+		"name": "J.D. Mayo",
+		"guest_id": "jdmayo"
+	}, {
+		"name": "Wendy Shelor",
+		"guest_id": "wendyshelor"
+	}, {
+		"name": "Joe R. Lansdale",
+		"guest_id": "joerlansdale"
+	}, {
+		"name": "Pending",
+		"guest_id": "pending"
+	}, {
+		"name": "Amanda McGee",
+		"guest_id": "amandamcgee"
+	}, {
+		"name": "Brenden Magill",
+		"guest_id": "brendenmagill"
+	}, {
+		"name": "Carol the Cat (Reader)",
+		"guest_id": "carolthecatreader"
+	}, {
+		"name": "Darin Kennedy (Author)",
+		"guest_id": "darinkennedyauthor"
+	}, {
+		"name": "Jason Gilbert (Author)",
+		"guest_id": "jasongilbertauthor"
+	}, {
+		"name": "Kim Headlee (Author)",
+		"guest_id": "kimheadleeauthor"
+	}, {
+		"name": "Michael David Anderson (Author)",
+		"guest_id": "michaeldavidandersonauthor"
+	}, {
+		"name": "Mike Pederson (Reader)",
+		"guest_id": "mikepedersonreader"
+	}, {
+		"name": "Phyllis Van Eps",
+		"guest_id": "phyllisvaneps"
+	}, {
+		"name": "DJ Angel Metro",
+		"guest_id": "djangelmetro"
+	}, {
+		"name": "Steven Hancock",
+		"guest_id": "stevenhancock"
+	}, {
+		"name": "Darren Conrad",
+		"guest_id": "darrenconrad"
+	}, {
+		"name": "Final Form Fusion",
+		"guest_id": "finalformfusion"
+	}, {
+		"name": "Calvin Powers",
+		"guest_id": "calvinpowers"
+	}, {
+		"name": "Dark N Stormy",
+		"guest_id": "darknstormy"
+	}, {
+		"name": "Lynnia Ruby",
+		"guest_id": "lynniaruby"
+	}, {
+		"name": "Pattycakes",
+		"guest_id": "pattycakes"
+	}, {
+		"name": "Keith Stanley",
+		"guest_id": "keithstanley"
+	}, {
+		"name": "The True Original Gata",
+		"guest_id": "thetrueoriginalgata"
+	}, {
+		"name": "Tommy Dreamer",
+		"guest_id": "tommydreamer"
+	}, {
+		"name": "Chris Slattery",
+		"guest_id": "chrisslattery"
+	}, {
+		"name": "Hazel Dayze",
+		"guest_id": "hazeldayze"
+	}, {
+		"name": "Broad Universe Rapid Fire Reading",
+		"guest_id": "broaduniverserapidfirereading"
+	}, {
+		"name": "William Coughlan",
+		"guest_id": "williamcoughlan"
+	}, {
+		"name": "The Brindles (Carla, Kera and Cheka)",
+		"guest_id": "thebrindlescarlakeraandcheka"
+	}, {
+		"name": "Michael Pederson",
+		"guest_id": "michaelpederson"
+	}, {
+		"name": "Charming Charlie",
+		"guest_id": "charmingcharlie"
+	}, {
+		"name": "Tha True Original Gata",
+		"guest_id": "thatrueoriginalgata"
+	}, {
+		"name": "Reeper",
+		"guest_id": "reeper"
+	}, {
+		"name": "Michael D. Pederson",
+		"guest_id": "michaeldpederson"
+	}],
+	"events": [{
+		"day": "Invalid date",
+		"time": "Invalid date",
+		"location": "Location",
+		"title": "Panel Name",
+		"description": "Description",
+		"guest_list": ["moderatorpresenter", "panelist1", "panelist2", "panelist3", "panelist4", "panelist5", "panelist6"],
+		"event_id": "Invalid dateInvalid datepanelname",
+		"_id": "0Invalid dateInvalid datepanelname"
+	}, {
+		"day": "2018-02-23",
+		"time": "3:00",
+		"location": "Ballroom C",
+		"title": "Astrology and Tarot as Writing Tools",
+		"description": "Tarot and astrology are topics that have fascinated fiction writers for decades. But did you know that even if they don’t feature in your story, they make great behind-the-scenes tools for writing? In this panel we’ll discuss ways to use tarot and astrology to help spice up your brainstorming, flesh out character details, jump-start a stalled plot, and more.",
+		"guest_list": ["crymsynhart", "kimheadlee", "terafulbright"],
+		"event_id": "2018-02-233:00astrologyandtarotaswritingtools",
+		"_id": "12018-02-233:00astrologyandtarotaswritingtools"
+	}, {
+		"day": "2018-02-23",
+		"time": "3:00",
+		"location": "Ballroom D",
+		"title": "Author Showcase",
+		"description": "Authors who have written books coming out in 2018 can briefly discuss them in a panel.",
+		"guest_list": ["darinkennedy", "jamesgaines", "lesjohnson", "lizlong", "shroddey", "jasongilbert"],
+		"event_id": "2018-02-233:00authorshowcase",
+		"_id": "22018-02-233:00authorshowcase"
+	}, {
+		"day": "2018-02-23",
+		"time": "3:00",
+		"location": "Ballroom E",
+		"title": "Audio Podcasting and Internet Radio 101",
+		"description": "Our panelists will talk about ways to start up your own audio podcast, or Internet radio station--the equipment to get, software to use, and creating a website for distribution or hooking up with a streaming provider.",
+		"guest_list": ["syrinx", "theflynnstress", "richsigfrit", "alexmatsuo", "carolthecat"],
+		"event_id": "2018-02-233:00audiopodcastingandinternetradio101",
+		"_id": "32018-02-233:00audiopodcastingandinternetradio101"
+	}, {
+		"day": "2018-02-23",
+		"time": "3:00",
+		"location": "Dogwood 1",
+		"title": "Introduction to Roleplaying",
+		"description": "Curious as to what is involved in roleplaying games? Come take your first step into the wonderful world of roleplaying and what it entails. This panel would also be helpful to parents who have children that want to, or are actively participating in, roleplay. Learn the lingo, get all the starting tips, and more, with our panelists.",
+		"guest_list": ["stevenslong", "eddiesteddy", "janetcarden", "johnwatts", "rogercarden"],
+		"event_id": "2018-02-233:00introductiontoroleplaying",
+		"_id": "42018-02-233:00introductiontoroleplaying"
+	}, {
+		"day": "2018-02-23",
+		"time": "3:00",
+		"location": "Dogwood 2",
+		"title": "Podcast: Talk of the Tavern",
+		"description": "Hang out with Travis Sivart while he gives a preview of what you can expect at MystiCon 2018!",
+		"guest_list": ["travissivart"],
+		"event_id": "2018-02-233:00podcasttalkofthetavern",
+		"_id": "52018-02-233:00podcasttalkofthetavern"
+	}, {
+		"day": "2018-02-23",
+		"time": "3:00",
+		"location": "Indie Film",
+		"title": "Into the Mindtrap (18+)",
+		"description": "If you like psycho drama, twisted and trapped minds... this is where the crazy lives! Girl and a Scar (UK 14:57), Lunch Break (USA 3:42), I Confess (USA 5:22), Till Death Do Us Part (USA: 4:15), WAKE (UK 13:34),The Stranger (Spain 17:23)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-233:00intothemindtrap18",
+		"_id": "62018-02-233:00intothemindtrap18"
+	}, {
+		"day": "2018-02-23",
+		"time": "3:00",
+		"location": "Vista Room",
+		"title": "Clare Kramer GOH Interview",
+		"description": "Some have described her as, \"Glorificus, commonly known as Glory and also referred to as 'The Beast,' 'The Abomination,' 'That Which Cannot Be Named,' was a powerful goddess from a hell dimension, banished to Earth in human form, and one of the Scooby Gang's most dangerous enemies.\" Come find out more about this vixen in red and the nice lady who played her!",
+		"guest_list": ["billyflynn", "clarekramer"],
+		"event_id": "2018-02-233:00clarekramergohinterview",
+		"_id": "72018-02-233:00clarekramergohinterview"
+	}, {
+		"day": "2018-02-23",
+		"time": "4:00",
+		"location": "Ballroom C",
+		"title": "Avatar: The Last Airbender (Legend & Legacy)",
+		"description": "Even though the story of Aang and Korra has ended, the fans keep the legacy alive. Join a panel discussion to celebrate this amazing series and awesome community of fans.",
+		"guest_list": ["abigailwallace", "richardcwhite"],
+		"event_id": "2018-02-234:00avatarthelastairbenderlegendlegacy",
+		"_id": "82018-02-234:00avatarthelastairbenderlegendlegacy"
+	}, {
+		"day": "2018-02-23",
+		"time": "4:00",
+		"location": "Ballroom C",
+		"title": "Zach Callison GOH Interview",
+		"description": "Zach Callison is an actor, voice actor and singer. He is widely known for voicing Steven in \"Steven Universe.\" He has a lot more to tell about who he is and what he's been up to lately!",
+		"guest_list": ["anitabruckert", "zachcallison"],
+		"event_id": "2018-02-234:00zachcallisongohinterview",
+		"_id": "92018-02-234:00zachcallisongohinterview"
+	}, {
+		"day": "2018-02-23",
+		"time": "4:00",
+		"location": "Ballroom D",
+		"title": "Contemporary Fantasy: Setting the Fantastic in the Everyday World",
+		"description": "An inherent advantage of the fantasy genre is that it offers a dazzling diversity of settings. Some fantasy is set in alternate versions of the historical past, in which the magic of folklore is real. Other stories take place in imaginary worlds populated by folkloric characters.  Such fantasy settings free the author from the constraints of the \"real world.\" Want your heros to have to find their way over or through a precipitous mountain range? Draw the Misty Mountains down the middle of your map. Want a dragon to show up, breathing fire and speaking in riddles? Name him Smaug and start writing. So, with such freedom available, why do some authors opt for the constraints of the here and now? What are the advantages--and pitfalls--of writing the fantastic into our own backyards?",
+		"guest_list": ["frasersherman", "joerlandsdale", "lizlong", "pamelakkinney", "shawneesmall", "stuartjaffe"],
+		"event_id": "2018-02-234:00contemporaryfantasysettingthefantasticintheeverydayworld",
+		"_id": "102018-02-234:00contemporaryfantasysettingthefantasticintheeverydayworld"
+	}, {
+		"day": "2018-02-23",
+		"time": "4:00",
+		"location": "Ballroom E",
+		"title": "Con Survivalism 101",
+		"description": "Never been to a convention before? Maybe this is your first time at MystiCon? Or are you the crafty veteran of dozens (if not hundreds) of cons? Either way, come join in our roundtable discussion on how to best enjoy the convention experience, as well as practical advice on the do's and dont's of con survival. Especially if you're planning to party, this is the place to get some great advice.",
+		"guest_list": ["daveharlequin", "bridgetmuncy", "charmingcharley", "jillianryan", "tallyjohnson"],
+		"event_id": "2018-02-234:00consurvivalism101",
+		"_id": "112018-02-234:00consurvivalism101"
+	}, {
+		"day": "2018-02-23",
+		"time": "4:00",
+		"location": "Dogwood 1",
+		"title": "Mark MacDicken: Close Up Magic",
+		"description": "Join Mark MacDicken while he lets you get up close and personal for this intimate magic show!",
+		"guest_list": ["markmacdicken"],
+		"event_id": "2018-02-234:00markmacdickencloseupmagic",
+		"_id": "122018-02-234:00markmacdickencloseupmagic"
+	}, {
+		"day": "2018-02-23",
+		"time": "4:00",
+		"location": "Dogwood 2",
+		"title": "Leatherworking 101",
+		"description": "A primer for the basics of leatherwork lead by the designers at Ribbons and Rivets, where participants edge, burnish, dye, seal, and decorate their very own wrist cuff. All tools and materials will be provided. Just bring a pair of hands. Fee is $20",
+		"guest_list": ["matthewpenick"],
+		"event_id": "2018-02-234:00leatherworking101",
+		"_id": "132018-02-234:00leatherworking101"
+	}, {
+		"day": "2018-02-23",
+		"time": "4:00",
+		"location": "Indie Film",
+		"title": "Borders, Walls and Battle Scars",
+		"description": "Strike (Nepal 1:00), M.A.M.O.M. (Uruguya 5:55), The Border (UK 23:05), Illegal Aliens (USA 10:00), Carry My Voice (USA/Turkey 19:00)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-234:00borderswallsandbattlescars",
+		"_id": "142018-02-234:00borderswallsandbattlescars"
+	}, {
+		"day": "2018-02-23",
+		"time": "4:00",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Samantha Bryant",
+		"guest_list": ["samanthabryant"],
+		"event_id": "2018-02-234:00authorreading",
+		"_id": "152018-02-234:00authorreading"
+	}, {
+		"day": "2018-02-23",
+		"time": "5:00",
+		"location": "Ballroom D",
+		"title": "Hey, Let's Kill All the Orcs! - Morality in RPGs",
+		"description": "If orcs are by definition evil, is it all right to slaughter them mercilessly, even women and children? But can a sentient species be “by definition evil”? This panel discusses some of the moral issues that arise in roleplaying games and how exploring these issues can make your gaming sessions even more exciting.",
+		"guest_list": ["stevenslong", "janetcarden", "johnwatts", "rogercarden"],
+		"event_id": "2018-02-235:00heyletskillalltheorcsmoralityinrpgs",
+		"_id": "162018-02-235:00heyletskillalltheorcsmoralityinrpgs"
+	}, {
+		"day": "2018-02-23",
+		"time": "5:00",
+		"location": "Ballroom E",
+		"title": "Like Omigod! A Totally 80's Panel",
+		"description": "With the 80's decade back in the spotlight, thanks to Stranger Things, It, and the upcoming Ready Player One, let's all put on our Member's Only jacket and flashback to the time that was totally tubular.",
+		"guest_list": ["syrinx", "bridgetmuncy", "johnjohnson", "louantonelli", "shawneesmall", "thegiddygeeker"],
+		"event_id": "2018-02-235:00likeomigodatotally80spanel",
+		"_id": "172018-02-235:00likeomigodatotally80spanel"
+	}, {
+		"day": "2018-02-23",
+		"time": "5:00",
+		"location": "Dealer Room",
+		"title": "Zach Callison & Clare Kramer Autographs",
+		"description": "Zach Callison & Clare Kramer Autographs",
+		"guest_list": ["na", "clarekramer", "zachcallison"],
+		"event_id": "2018-02-235:00zachcallisonclarekramerautographs",
+		"_id": "182018-02-235:00zachcallisonclarekramerautographs"
+	}, {
+		"day": "2018-02-23",
+		"time": "5:00",
+		"location": "Dogwood 1",
+		"title": "The Science Hits of 2017",
+		"description": "Come see what you missed in science this past year. There have been some major discoveries that you really need to hear about!",
+		"guest_list": ["jimbeall", "lesjohnson"],
+		"event_id": "2018-02-235:00thesciencehitsof2017",
+		"_id": "192018-02-235:00thesciencehitsof2017"
+	}, {
+		"day": "2018-02-23",
+		"time": "5:00",
+		"location": "Indie Film",
+		"title": "Ooh La La! French Shorts and Feature Film: The LaChance Kids    (PG/PG13 for \"flipping the bird\" &language)",
+		"description": "Short: Twice As Bad (France 14:53) Will Léa and  Mathieu survive their new baby twins?                    Feature: The LaChance Kids (France 1:40:30)  Four children come to terms with their lives seven years after losing their parents, who met and fell in love in North Carolina.",
+		"guest_list": ["benjamenwalton", "haleywalton", "kaishenwalton"],
+		"event_id": "2018-02-235:00oohlalafrenchshortsandfeaturefilmthelachancekidspgpg13forflippingthebirdlanguage",
+		"_id": "202018-02-235:00oohlalafrenchshortsandfeaturefilmthelachancekidspgpg13forflippingthebirdlanguage"
+	}, {
+		"day": "2018-02-23",
+		"time": "5:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table B",
+		"description": "Jason Gilbert",
+		"guest_list": ["jasongilbert"],
+		"event_id": "2018-02-235:00guestsigningtableb",
+		"_id": "212018-02-235:00guestsigningtableb"
+	}, {
+		"day": "2018-02-23",
+		"time": "5:00",
+		"location": "Vista Room",
+		"title": "Joe R. Landsdale GOH Interview",
+		"description": "Joe R. Landsdale GOH Interview",
+		"guest_list": ["mikepederson", "joerlandsdale"],
+		"event_id": "2018-02-235:00joerlandsdalegohinterview",
+		"_id": "222018-02-235:00joerlandsdalegohinterview"
+	}, {
+		"day": "2018-02-23",
+		"time": "5:30",
+		"location": "Dogwood 2",
+		"title": "Armour Patterning Workshop",
+		"description": "In this workshop, you will learn how to take measurements by following body contours and how to apply seam allowances. Participants will leave with their own bracer pattern.",
+		"guest_list": ["matthewpenick"],
+		"event_id": "2018-02-235:30armourpatterningworkshop",
+		"_id": "232018-02-235:30armourpatterningworkshop"
+	}, {
+		"day": "2018-02-23",
+		"time": "6:00",
+		"location": "Ballroom C",
+		"title": "Pottermore & Beyond",
+		"description": "Expansion of the Harry Potter verse from The Cursed Child to Fantastical Beasts & Where to Find Them. A play, a screenplay, a side story: How far will the Potterverse stray from the original stories?",
+		"guest_list": ["eddiesteddy", "bridgetmuncey", "charmingcharley", "gingersnaps"],
+		"event_id": "2018-02-236:00pottermorebeyond",
+		"_id": "242018-02-236:00pottermorebeyond"
+	}, {
+		"day": "2018-02-23",
+		"time": "6:00",
+		"location": "Ballroom D",
+		"title": "Dynamic Story Creation in Plain English",
+		"description": "Are you a writer or aspiring writer looking to improve your skills? Do topics like major and minor themes, reversals, plot points, motifs, reader fulfillment, scene arcs, or the mythic structure interest, upset, baffle, or frighten you? If so, join our panelists as they break these topics down into easily understandable bits you can use to improve your craft.",
+		"guest_list": ["pamelakkinney", "alexandrachristian", "crymsynhart", "michaeldavidanderson", "stuartjaffe", "travissivart"],
+		"event_id": "2018-02-236:00dynamicstorycreationinplainenglish",
+		"_id": "252018-02-236:00dynamicstorycreationinplainenglish"
+	}, {
+		"day": "2018-02-23",
+		"time": "6:00",
+		"location": "Ballroom E",
+		"title": "World Mythology in Contemporary Fantasy",
+		"description": "There are worlds of diverse gods, djinn, daemons, Ghabali, manticores, sylphs, yowies-and oh, yeah, Baba Yaga-to learn about. And you can find them all in the pages of books. Join our panelists to learn about the monsters that roam the Earth and how world mythology provides the building blocks of contemporary storytelling.",
+		"guest_list": ["stevenslong", "erinashley", "jkylemcneal", "melissamcarthur", "meredithbowmanshelton", "richardcwhite"],
+		"event_id": "2018-02-236:00worldmythologyincontemporaryfantasy",
+		"_id": "262018-02-236:00worldmythologyincontemporaryfantasy"
+	}, {
+		"day": "2018-02-23",
+		"time": "6:00",
+		"location": "Dogwood 1",
+		"title": "B Movie Panel",
+		"description": "Step inside for a “confessional” discussion on our guilty pleasure “B” movies, as well as discussion about what constitutes a “B” movie.",
+		"guest_list": ["peterprellwitz", "abigailwallace", "jamesgaines", "johngaines", "johnjohnson", "mikeallen"],
+		"event_id": "2018-02-236:00bmoviepanel",
+		"_id": "272018-02-236:00bmoviepanel"
+	}, {
+		"day": "2018-02-23",
+		"time": "6:00",
+		"location": "Vista Room",
+		"title": "Opening Ceremonies",
+		"description": "Seating begins at 5:30 pm",
+		"guest_list": ["carlabrindle", "clarekramer", "bellamorte", "geekradiodailybilly", "geekradiodailytheflynnstress", "jaysenbuterin", "joerlandsdale"],
+		"event_id": "2018-02-236:00openingceremonies",
+		"_id": "282018-02-236:00openingceremonies"
+	}, {
+		"day": "2018-02-23",
+		"time": "6:30",
+		"location": "Dogwood 2",
+		"title": "The Business of Writing",
+		"description": "The Business of Writing presented by award-winning author Kim Iverson Headlee aids all authors wishing to start—or jump-start—their writing careers. Whether you’re an independent, hybrid, or traditionally published author, come get the lowdown on such topics as: What are the key prepublication, book launch, and ongoing promotion decisions I need to consider? What is an ISBN, how do I obtain it, and how many will I need? What is an imprint and how do I establish one for my books? For print and e-book layout, cover design, editing, and other production details, can I get away with doing it all myself, or must I pay for professional service providers? How do I secure—and react to—reviews of my book?",
+		"guest_list": ["kimheadlee"],
+		"event_id": "2018-02-236:30thebusinessofwriting",
+		"_id": "292018-02-236:30thebusinessofwriting"
+	}, {
+		"day": "2018-02-23",
+		"time": "7:00",
+		"location": "Ballroom C",
+		"title": "Tea & Story Time with Talk of the Tavern",
+		"description": "Tea & Story time with Talk of the Tavern (G-Rated, family friendly, all ages. (Children are very welcome ACCOMPANIED BY AN ADULT.)",
+		"guest_list": ["travissivart"],
+		"event_id": "2018-02-237:00teastorytimewithtalkofthetavern",
+		"_id": "302018-02-237:00teastorytimewithtalkofthetavern"
+	}, {
+		"day": "2018-02-23",
+		"time": "7:00",
+		"location": "Ballroom D",
+		"title": "First Contact Improv",
+		"description": "The panel consists of a moderator and 3-4 panelists, preferably writers, and preferably with a good sense of humor. The panelists are charged with designing a human-alien First Contact scenario on the fly. The twist is that the moderator has over 100 improv prompts on cards that are drawn by the panelists and audience members.",
+		"guest_list": ["eddiesteddy", "jasongilbert", "peterprellwitz", "rsbelcher", "louantonelli", "jimgaines", "johngaines"],
+		"event_id": "2018-02-237:00firstcontactimprov",
+		"_id": "312018-02-237:00firstcontactimprov"
+	}, {
+		"day": "2018-02-23",
+		"time": "7:00",
+		"location": "Dogwood 1",
+		"title": "Solar Sails: From Idea to Reality",
+		"description": "Learn about the history, use, and status of solar sails for space travel from the Solar Sail Principal Investigator for NASA's first interplanetary solar sail mission.",
+		"guest_list": ["lesjohnson"],
+		"event_id": "2018-02-237:00solarsailsfromideatoreality",
+		"_id": "322018-02-237:00solarsailsfromideatoreality"
+	}, {
+		"day": "2018-02-23",
+		"time": "7:00",
+		"location": "Indie Film",
+		"title": "PG Animation Shorts for Adults (PG-13)",
+		"description": "A selection of animated shorts for grown-ups (...or at least PG-13) 24 Days of Torture (UK 2:07), CORP (Argentina 9:00), Anatidaephobia (USA 2:15), Collector (Hungary 3:07), Bystander (Iran 3:20), Panic Attack (USA 3:00), Little Big Sky (USA 3:30), Conscience (United Arab Emirates 1:40), Sounds Great, Looking Forward! (USA 1:32), The Rhino (Iran 3:30), Dissection (Poland 1:15), Don't Talk to Strangers (USA 4:24), A Day in the Park (Spain 2:55), Munchies (UK 2:21), Fruit (Germany 6:55), KCLOC (India 2:50), Seed of a Nation 3 (India 3:00)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-237:00pganimationshortsforadultspg13",
+		"_id": "332018-02-237:00pganimationshortsforadultspg13"
+	}, {
+		"day": "2018-02-23",
+		"time": "7:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "John Watts",
+		"guest_list": ["johnwatts"],
+		"event_id": "2018-02-237:00guestsigningtablea",
+		"_id": "342018-02-237:00guestsigningtablea"
+	}, {
+		"day": "2018-02-23",
+		"time": "7:30",
+		"location": "Vista Room",
+		"title": "Panel Concert: Bella Morte, DJ Angel Metro & The Vailix",
+		"description": "Panel Concert: Bella Morte, DJ Angel Metro & The Vailix",
+		"guest_list": ["na", "bellamorte", "angelmetro", "thevailix"],
+		"event_id": "2018-02-237:30panelconcertbellamortedjangelmetrothevailix",
+		"_id": "352018-02-237:30panelconcertbellamortedjangelmetrothevailix"
+	}, {
+		"day": "2018-02-23",
+		"time": "8:00",
+		"location": "Ballroom C",
+		"title": "Cosplay 201: Surviving the Masquerade",
+		"description": "This panel covers the \"what's next\" questions about how to take your amazing cosplay to the next level. Come learn some tips and tricks to help you not just get through the masquerade, but be confident and successful at conveying excitement about your costume.",
+		"guest_list": ["jillianryan", "angelapritchett", "davidlee", "markmacdicken", "matthewpenick"],
+		"event_id": "2018-02-238:00cosplay201survivingthemasquerade",
+		"_id": "362018-02-238:00cosplay201survivingthemasquerade"
+	}, {
+		"day": "2018-02-23",
+		"time": "8:00",
+		"location": "Ballroom D",
+		"title": "Fan Fiction",
+		"description": "Writer Training Wheels or the Root of All Evil:  Many writers get their feet wet with writing fan fiction.  But at what point does it become counterproductive?  Panelists discuss their own experiences with fanfiction and the implications as far as copyright and Kindle Worlds.",
+		"guest_list": ["thegiddygeeker", "alexandrachristian", "melissamcarthur", "mxknowitall", "schouff", "shroddey"],
+		"event_id": "2018-02-238:00fanfiction",
+		"_id": "372018-02-238:00fanfiction"
+	}, {
+		"day": "2018-02-23",
+		"time": "8:00",
+		"location": "Ballroom E",
+		"title": "Techniques for Teaching STEM - Part I",
+		"description": "Liquid Nitrogen Demos have never been so entertaining than when we've seen Dr. Wallace do them at MystiCon. We think this is a MUST SEE!",
+		"guest_list": ["drdanielwallace", "abigailwallace"],
+		"event_id": "2018-02-238:00techniquesforteachingstemparti",
+		"_id": "382018-02-238:00techniquesforteachingstemparti"
+	}, {
+		"day": "2018-02-23",
+		"time": "8:00",
+		"location": "Dogwood 1",
+		"title": "Graphic Novel Storytelling",
+		"description": "What are the visual aspects of storytelling. Storytelling in graphic novels is more than captions. The artwork helps to communicate the story in the most entertaining way.",
+		"guest_list": ["robrichmond", "joerlandsdale", "richardcwhite"],
+		"event_id": "2018-02-238:00graphicnovelstorytelling",
+		"_id": "392018-02-238:00graphicnovelstorytelling"
+	}, {
+		"day": "2018-02-23",
+		"time": "8:00",
+		"location": "Dogwood 2",
+		"title": "Children's Programming",
+		"description": "Children's Programming this year has a gaming theme. Come bring the kids to play games and eat snacks. They can also sign up during this time for the first ever Kids Only RPG Gaming on Saturday!!",
+		"guest_list": ["mjasonturner"],
+		"event_id": "2018-02-238:00childrensprogramming",
+		"_id": "402018-02-238:00childrensprogramming"
+	}, {
+		"day": "2018-02-23",
+		"time": "8:00",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "John L. French",
+		"guest_list": ["johnlfrench"],
+		"event_id": "2018-02-238:00authorreading",
+		"_id": "412018-02-238:00authorreading"
+	}, {
+		"day": "2018-02-23",
+		"time": "8:00",
+		"location": "Con Suite",
+		"title": "Clare Kramer Meet & Greet",
+		"description": "Once More with Clare!",
+		"guest_list": ["oncemorewithamber", "clarekramer"],
+		"event_id": "2018-02-238:00clarekramermeetgreet",
+		"_id": "422018-02-238:00clarekramermeetgreet"
+	}, {
+		"day": "2018-02-23",
+		"time": "8:00",
+		"location": "Indie Film",
+		"title": "Pretty Scary",
+		"description": "The fairer sex or the scarier sex?  A look at fantastic female monsters in film history and some of the terrifying work of female filmmakers.",
+		"guest_list": ["billmulligan", "christineparker", "dansellers", "sammiecassell", "jaysenbuterin"],
+		"event_id": "2018-02-238:00prettyscary",
+		"_id": "432018-02-238:00prettyscary"
+	}, {
+		"day": "2018-02-23",
+		"time": "8:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "Travis Sivart",
+		"guest_list": ["travissivart"],
+		"event_id": "2018-02-238:00guestsigningtablea",
+		"_id": "442018-02-238:00guestsigningtablea"
+	}, {
+		"day": "2018-02-23",
+		"time": "9:00",
+		"location": "Dogwood 1",
+		"title": "Avoiding Fantasy Cliches",
+		"description": "Identify the cliches: the all-powerful magical object; contrived romance, including 'instant love' and love triangles; setting – medieval, European-style monarchy; oversimplified 'good vs. evil' dynamic; stereotypical characters. Then learn how to go in a different direction.",
+		"guest_list": ["darinkennedy", "crymsynhart", "jkylemcneal", "jasontgraves", "rsbelcher", "schouff"],
+		"event_id": "2018-02-239:00avoidingfantasycliches",
+		"_id": "452018-02-239:00avoidingfantasycliches"
+	}, {
+		"day": "2018-02-23",
+		"time": "9:00",
+		"location": "Indie Film",
+		"title": "Pretty Scary Shorts (18+)",
+		"description": "A collection of thrillers and horror short films from the minds of today's female filmmakers. Wakey Wakey (UK 5:45), Refuge (Argentina 5:00), Kumal (USA 6:42),  Aeternum (Peru 9:59), The Girl in the Photo (USA 2:37), Neighbors (USA 14:41), Lily (France 12:02)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-239:00prettyscaryshorts18",
+		"_id": "462018-02-239:00prettyscaryshorts18"
+	}, {
+		"day": "2018-02-23",
+		"time": "9:00",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Kim Headlee",
+		"guest_list": ["kimheadlee"],
+		"event_id": "2018-02-239:00authorreading",
+		"_id": "472018-02-239:00authorreading"
+	}, {
+		"day": "2018-02-23",
+		"time": "9:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "MxKnowitall",
+		"guest_list": ["mxknowitall"],
+		"event_id": "2018-02-239:00guestsigningtablea",
+		"_id": "482018-02-239:00guestsigningtablea"
+	}, {
+		"day": "2018-02-23",
+		"time": "10:00",
+		"location": "Combined CDE",
+		"title": "Rocky Horror Picture Show",
+		"description": "Rocky Horror Picture Show (Featuring Charming Underclothes) Library Bards will be the Opening Act",
+		"guest_list": ["charmingcharley", "eddiesteddy", "gingersnaps", "syrinx", "thelibrarybards", "wednesdaymourning"],
+		"event_id": "2018-02-2310:00rockyhorrorpictureshow",
+		"_id": "492018-02-2310:00rockyhorrorpictureshow"
+	}, {
+		"day": "2018-02-23",
+		"time": "10:00",
+		"location": "Dogwood 1",
+		"title": "Eye of Argon",
+		"description": "The worst science fiction story ever written gets a reading by our brave panel as they compete to go the longest without tripping over a misspelled word or laughing uncontrollably. Audience members are also encouraged to take a chance. Can you keep a straight face, especially when the panel begins acting out the story?",
+		"guest_list": ["rsbelcher", "louantonelli", "jasontgraves"],
+		"event_id": "2018-02-2310:00eyeofargon",
+		"_id": "502018-02-2310:00eyeofargon"
+	}, {
+		"day": "2018-02-23",
+		"time": "10:00",
+		"location": "Indie Film",
+		"title": "Around the World in 120 Minutes (PG-13)",
+		"description": "MystiCon received films from over 110 countries. Do we all share the same fears, cares, and desires? Take the tour here! Track 01 (Cuba 1:00), Shunyata: The Void (India 22:10), Regeneration (China 10:57), Writer's Block (Ireland 8:52), Screamer (India 23:32), Blue Peter (Croatia 14:28), The Toilet (China 8:36), Different Bayern (Germany 25:20)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-2310:00aroundtheworldin120minutespg13",
+		"_id": "512018-02-2310:00aroundtheworldin120minutespg13"
+	}, {
+		"day": "2018-02-23",
+		"time": "10:30",
+		"location": "Dogwood 2",
+		"title": "Ninja Twister",
+		"description": "Twister and Booze, what else can we say? You may dress like a Ninja…if you want…not required! (21+)",
+		"guest_list": ["carlabrindle"],
+		"event_id": "2018-02-2310:30ninjatwister",
+		"_id": "522018-02-2310:30ninjatwister"
+	}, {
+		"day": "2018-02-23",
+		"time": "10:30",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Pamela K. Kinney",
+		"guest_list": ["pamelakkinney"],
+		"event_id": "2018-02-2310:30authorreading",
+		"_id": "532018-02-2310:30authorreading"
+	}, {
+		"day": "2018-02-23",
+		"time": "10:30",
+		"location": "Vista Room",
+		"title": "Movie Premier",
+		"description": "7th Guest-The Series (By John Johnson)",
+		"guest_list": ["johnjohnson", "mariahjohnson"],
+		"event_id": "2018-02-2310:30moviepremier",
+		"_id": "542018-02-2310:30moviepremier"
+	}, {
+		"day": "2018-02-23",
+		"time": "11:00",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "R.S. Belcher",
+		"guest_list": ["rsbelcher"],
+		"event_id": "2018-02-2311:00authorreading",
+		"_id": "552018-02-2311:00authorreading"
+	}, {
+		"day": "2018-02-23",
+		"time": "11:30",
+		"location": "Dogwood 2",
+		"title": "Drum Circle: We've Got the Beat",
+		"description": "Drum Circle: We've Got the Beat",
+		"guest_list": [],
+		"event_id": "2018-02-2311:30drumcirclewevegotthebeat",
+		"_id": "562018-02-2311:30drumcirclewevegotthebeat"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:00",
+		"location": "Dogwood 1",
+		"title": "The Call of Cthulhu",
+		"description": "Just who is Cthulhu? Sure, Lovecraft gave us the popular idea of The High Priest of the Great Old Ones, but who is he? Friend or foe, hero or villian, whatever you consider him, he's stayed a prominent figure in popular culture. Just who are we talking about?",
+		"guest_list": ["mikeallen", "anitaallen", "jasontgraves", "johnlfrench", "robrichmond"],
+		"event_id": "2018-02-2412:00thecallofcthulhu",
+		"_id": "572018-02-2412:00thecallofcthulhu"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:00",
+		"location": "Indie Film",
+		"title": "Friday Night Fright Short and Feature (18+)",
+		"description": "Seriously, you didn't want to sleep tonight, right? AUSSIE HORROR SHORT: The Cure (USA 4:02), Labeled (USA 1:05), The House of Mary Grey (Australia 31:23) FEATURE LENGTH: Interlaced (USA 1:33:00) Two years after his sister, Avery, mysteriously disappeared from a birthday party near the Oregon National Forest, Kadin sets out for a night of camping in the woods to face his fears. Kadin learns that the woods hold many secrets, but will they lead to the truth about his sister?",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-2412:00fridaynightfrightshortandfeature18",
+		"_id": "582018-02-2412:00fridaynightfrightshortandfeature18"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:00",
+		"location": "Vista Room",
+		"title": "The Legacy of Frankenstein",
+		"description": "2018 marks the 200th anniversary of Mary Shelley's classic novel. It has been translated across all forms of media in multiple languages, and is still popular in today's culture. This panel will discuss how the novel has both shaped horror as a genre and impacted both literature and society.",
+		"guest_list": ["richardcwhite", "louantonelli", "markdavis"],
+		"event_id": "2018-02-2412:00thelegacyoffrankenstein",
+		"_id": "592018-02-2412:00thelegacyoffrankenstein"
+	}, {
+		"day": "2018-02-24",
+		"time": "8:00",
+		"location": "Indie Film",
+		"title": "Saturday Morning Cartoons (all ages)",
+		"description": "BYO Breakfast!  Just Like JIF, kid tested, mother approved. Animations and shorts appropriate for ALL audiences. Buggy (Singapore 5:10), Two Too Odd (Germany 4:35), Delusion (Austria 4:31), Land Without Evil (Hungary 4:00),The Magician (USA 5:55), Fingerman (Ukraine 5:40), The Blackberry and the Firebeetle (Venezuela 10:00), Illuminosity (USA 4:00), Playground Warfare (USA 4:18), The Station (Turkey 4:50), Bob in the Rain and the Lizard of Hope (USA 3:28)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-248:00saturdaymorningcartoonsallages",
+		"_id": "602018-02-248:00saturdaymorningcartoonsallages"
+	}, {
+		"day": "2018-02-24",
+		"time": "9:00",
+		"location": "Ballroom C",
+		"title": "Politics and Economics of Cover Art",
+		"description": "Do figures in hoods really sell more books? Why do we continue to see whitewashed and sexualized covers despite a widespread drive towards more progressive narratives? What are the choices publishers make, how do they justify them, and what - if any - data is there to back them up? What role do authors and editors play in the creation of cover art, and is the role of cover art in bookselling changing with the rise of ebooks and self-publishing?",
+		"guest_list": ["markdavis", "amandajmcgee", "jasontgraves"],
+		"event_id": "2018-02-249:00politicsandeconomicsofcoverart",
+		"_id": "612018-02-249:00politicsandeconomicsofcoverart"
+	}, {
+		"day": "2018-02-24",
+		"time": "9:00",
+		"location": "Ballroom E",
+		"title": "Successful Indie Publishing",
+		"description": "This workshop will help attendees navigate the intricacies of independent publishing, from start to finish, showing them what to do and what to avoid in order to bring their book to market and become a successful self-published author.",
+		"guest_list": ["erinashley", "jkylemcneal", "lizlong", "pamelakkinney", "shawneesmall", "stuartjaffe"],
+		"event_id": "2018-02-249:00successfulindiepublishing",
+		"_id": "622018-02-249:00successfulindiepublishing"
+	}, {
+		"day": "2018-02-24",
+		"time": "9:00",
+		"location": "Dogwood 1",
+		"title": "Saturday Morning Cartoons",
+		"description": "Start Saturday morning the way you're supposed to-with cartoons! Panelists discuss iconic Looney Tunes and Hanna-Barbera characters while watching some of their favorites.",
+		"guest_list": ["myronsmith", "shawndurington", "carolthecat", "abbywallace", "sammiecassell"],
+		"event_id": "2018-02-249:00saturdaymorningcartoons",
+		"_id": "632018-02-249:00saturdaymorningcartoons"
+	}, {
+		"day": "2018-02-24",
+		"time": "9:00",
+		"location": "Dogwood 2",
+		"title": "The Writer's Workshop with Allen Wold",
+		"description": "Closed workshop for pre-registered authors to hone their writing skills with the guidance of Allen Wold.",
+		"guest_list": ["allenwold", "kimheadlee", "mikeallen", "rsbelcher"],
+		"event_id": "2018-02-249:00thewritersworkshopwithallenwold",
+		"_id": "642018-02-249:00thewritersworkshopwithallenwold"
+	}, {
+		"day": "2018-02-24",
+		"time": "9:00",
+		"location": "Indie Film",
+		"title": "Cream of the International Crop Shorts Part 1",
+		"description": "When Looks Speak Volumes (Germany 7:32), The Bagpipe Maker's Baby (UK 37:16), A Brunch with Death (USA 3:00), A Dog Called Moose (UK 10:00)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-249:00creamoftheinternationalcropshortspart1",
+		"_id": "652018-02-249:00creamoftheinternationalcropshortspart1"
+	}, {
+		"day": "2018-02-24",
+		"time": "9:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table B",
+		"description": "Jim & John Gaines",
+		"guest_list": ["jamesgaines", "johngaines"],
+		"event_id": "2018-02-249:00guestsigningtableb",
+		"_id": "662018-02-249:00guestsigningtableb"
+	}, {
+		"day": "2018-02-24",
+		"time": "9:00",
+		"location": "Vista Room",
+		"title": "Steampunk Jamboree",
+		"description": "Familiar tunes, funny fan-fueled lyrics, and a few British chestnuts, presented for you to sing-along with Flabbergast and the Missus in Victorian Music Hall-style! Rated E for Everyone.",
+		"guest_list": ["markmacdicken"],
+		"event_id": "2018-02-249:00steampunkjamboree",
+		"_id": "672018-02-249:00steampunkjamboree"
+	}, {
+		"day": "2018-02-24",
+		"time": "9:30",
+		"location": "Ballroom D",
+		"title": "Roanoke Robotics Workshop & Demonstration",
+		"description": "The Roanoke Robotics and Makers Club will demonstrate and explain the “how to” of several types of automatic robots, radio control,  and hacking projects. The Orange Giraffe Hunter is a homemade autonomous tank robot that uses a vision sensor (smart camera called Pixycam) to find its prey ( a Playskool Orange Giraffe) and track it down …wherever it goes. The panel program will demo the Orange Giraffe Hunter in action, software tools for the vision sensor, and the Arduino microcontroller brainzzzzz. I go a bit zombie when talking about brainzzz. The Go Pi Go is a family of hobby robots using the Raspberry Pi microcomputer. Several variants of the Go Pi Go will be explained, including the automatic tasks and sensors, and using your phone’s Bluetooth and wireless internet as a remote control.",
+		"guest_list": ["darrellittle", "garyyohe", "kevinhines"],
+		"event_id": "2018-02-249:30roanokeroboticsworkshopdemonstration",
+		"_id": "682018-02-249:30roanokeroboticsworkshopdemonstration"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:00",
+		"location": "Ballroom C",
+		"title": "Star Trek Discovery",
+		"description": "Over 50 years ago, the world was first introduced to what would quickly become a cultural phenomenon. It was a television series that inspired developments in science and technology, broke social barriers, and transported viewers around the globe to new adventures and uncharted frontiers. This fall, Star Trek: Discovery followed the voyages of Starfleet on their missions to discover new worlds and new life forms while learning that to truly understand all things alien, you must first understand yourself. The series featured a new ship and new characters while embracing the same ideology and hope for the future that inspired a generation of dreamers and doers. Join panelists for a conversation and introduction to Star Trek: Discovery.",
+		"guest_list": ["mikepederson", "mxknowitall"],
+		"event_id": "2018-02-2410:00startrekdiscovery",
+		"_id": "692018-02-2410:00startrekdiscovery"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:00",
+		"location": "Ballroom E",
+		"title": "Writing Up Close and Personal",
+		"description": "This panel will cover point-of-view choices and how to “write close” to your point-of-view characters. Do certain points of view only work with certain types of stories? What are the strengths and weaknesses of each form?",
+		"guest_list": ["samanthabryant", "crymsynhart", "melissamcarthur", "pamelakkinney", "peterprellwitz", "travissivart"],
+		"event_id": "2018-02-2410:00writingupcloseandpersonal",
+		"_id": "702018-02-2410:00writingupcloseandpersonal"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:00",
+		"location": "Con Suite",
+		"title": "Zach Callison Meet & Greet",
+		"description": "Together Breakfast",
+		"guest_list": ["na", "zachcallison"],
+		"event_id": "2018-02-2410:00zachcallisonmeetgreet",
+		"_id": "712018-02-2410:00zachcallisonmeetgreet"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:00",
+		"location": "Dogwood 1",
+		"title": "Stayin' Alive: Deep Space Edition",
+		"description": "The problems, challenges, and news concerning astronaut health on deep space missions, station manning, and colonization.",
+		"guest_list": ["darinkennedy", "jimbeall", "lesjohnson"],
+		"event_id": "2018-02-2410:00stayinalivedeepspaceedition",
+		"_id": "722018-02-2410:00stayinalivedeepspaceedition"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:00",
+		"location": "Indie Film",
+		"title": "Spare Time Editing Workshop",
+		"description": "Editing can make or break a film. From great cuts to boring your audience, this panel will cover editing your film for clarity, sound, pacing, and better visual storytelling!",
+		"guest_list": ["billmulligan", "christineparker", "christophermoore", "dansellers", "jdmayo"],
+		"event_id": "2018-02-2410:00sparetimeeditingworkshop",
+		"_id": "732018-02-2410:00sparetimeeditingworkshop"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:00",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Darin Kennedy",
+		"guest_list": ["darinkennedy"],
+		"event_id": "2018-02-2410:00authorreading",
+		"_id": "742018-02-2410:00authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "Liz Long",
+		"guest_list": ["lizlong"],
+		"event_id": "2018-02-2410:00guestsigningtablea",
+		"_id": "752018-02-2410:00guestsigningtablea"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table B",
+		"description": "Les Johnson",
+		"guest_list": ["lesjohnson"],
+		"event_id": "2018-02-2410:00guestsigningtableb",
+		"_id": "762018-02-2410:00guestsigningtableb"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:00",
+		"location": "Vista Room",
+		"title": "Shawn Durington GOH Interview",
+		"description": "Shawn Durington GOH Interview",
+		"guest_list": ["wendyshelor", "shawndurington"],
+		"event_id": "2018-02-2410:00shawnduringtongohinterview",
+		"_id": "772018-02-2410:00shawnduringtongohinterview"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Ballroom E",
+		"title": "Oddball Costuming Supplies: The Good, The Bad & The Ugly",
+		"description": "Panelists discuss their favorite unusual costume materials, their most difficult, and why they need to work outside the box.",
+		"guest_list": ["angelapritchett", "anitaallen", "carolthecat", "jillianryan", "matthewpenick", "meredithbowmanshelton"],
+		"event_id": "2018-02-2411:00oddballcostumingsuppliesthegoodthebadtheugly",
+		"_id": "782018-02-2411:00oddballcostumingsuppliesthegoodthebadtheugly"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Dealer Room",
+		"title": "Clare Kramer Autographs",
+		"description": "Clare Kramer Autographs",
+		"guest_list": ["na", "clarekramer"],
+		"event_id": "2018-02-2411:00clarekramerautographs",
+		"_id": "792018-02-2411:00clarekramerautographs"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Dogwood 1",
+		"title": "Let's Take Flight",
+		"description": "Flight has always been at the center of scifi and fantasy- Mary Poppins had her umbrella, Harry had the Firebolt, and Sabrina the Teenage Witch had her vacuum. Let's count all the fun and fancy ways scifi and fantasy has shown us to get off the ground!",
+		"guest_list": ["jimgaines", "darinkennedy", "erinashley", "jasontgraves", "samanthabryant", "travissivart"],
+		"event_id": "2018-02-2411:00letstakeflight",
+		"_id": "802018-02-2411:00letstakeflight"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Dogwood 2",
+		"title": "How To Draw Your Favorite Cartoon Character",
+		"description": "Myron Smith will draw one or two cartoon characters based off of the audience's selection and walk you through each step. The drawings will be entered in MystiCon's silent auction.  (Must pre-register at Registration. Fee is $5.00 for materials).",
+		"guest_list": ["myronsmith"],
+		"event_id": "2018-02-2411:00howtodrawyourfavoritecartooncharacter",
+		"_id": "812018-02-2411:00howtodrawyourfavoritecartooncharacter"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Indie Film",
+		"title": "Pride Shorts (18+)",
+		"description": "A selection of LGBTQ  films. Explore the relationships and attitudes of the LGBTQ experience around the world. Mackey & Gibbs (USA 6:06), My Brother (Spain 22:22), Approaching (Czech Republic 29:32)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-2411:00prideshorts18",
+		"_id": "822018-02-2411:00prideshorts18"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "Pamela K. Kinney",
+		"guest_list": ["pamelakkinney"],
+		"event_id": "2018-02-2411:00guestsigningtablea",
+		"_id": "832018-02-2411:00guestsigningtablea"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table B",
+		"description": "S.H. Roddey",
+		"guest_list": ["shroddey"],
+		"event_id": "2018-02-2411:00guestsigningtableb",
+		"_id": "842018-02-2411:00guestsigningtableb"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Vista Room",
+		"title": "Joe R. Lansdale GOH Interview",
+		"description": "Joe R. Lansdale GOH Interview",
+		"guest_list": ["mikepederson", "joerlansdale"],
+		"event_id": "2018-02-2411:00joerlansdalegohinterview",
+		"_id": "852018-02-2411:00joerlansdalegohinterview"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Ballroom C",
+		"title": "Ghostbusters Crossing the Streams",
+		"description": "Join our panelists as they discuss the long-running and fan-adored Ghostbusters franchise including everything from the classic original movies, comic books, cartoons, games and more bringing the different Ghostbusters worlds together like never before! Be there...or be slimed!",
+		"guest_list": ["tallyjohnson", "alexmatsuo", "jasongilbert", "shawndurington"],
+		"event_id": "2018-02-2411:00ghostbusterscrossingthestreams",
+		"_id": "862018-02-2411:00ghostbusterscrossingthestreams"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Shawnee Small",
+		"guest_list": ["shawneesmall"],
+		"event_id": "2018-02-2411:00authorreading",
+		"_id": "872018-02-2411:00authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:30",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Liz Long",
+		"guest_list": ["lizlong"],
+		"event_id": "2018-02-2411:30authorreading",
+		"_id": "882018-02-2411:30authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:00",
+		"location": "Ballroom C",
+		"title": "Shiny!",
+		"description": "Browncoats are loyal and true. We hung on until the end, and are ever hopeful we will see a return of one of the most exciting, fun shows on television. Joss Whedon gave us a wild ride with some unforgettable characters. Let's share why we are proud to be Browncoats!",
+		"guest_list": ["peterprellwitz", "eddiesteddy", "schouff", "travissivart"],
+		"event_id": "2018-02-2412:00shiny",
+		"_id": "892018-02-2412:00shiny"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:00",
+		"location": "Ballroom D",
+		"title": "Collaborating in a Shared Universe",
+		"description": "Collaborating with others can be hard. Collaborating in a shared universe can also be hard. Learn how to do both in this panel!",
+		"guest_list": ["erinashley", "melissamcarthur", "richardcwhite", "shroddey", "stevenslong", "terafulbright"],
+		"event_id": "2018-02-2412:00collaboratinginashareduniverse",
+		"_id": "902018-02-2412:00collaboratinginashareduniverse"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:00",
+		"location": "Ballroom E",
+		"title": "Plotting Workshop",
+		"description": "Plotting is essential to the art of writing. Join Allen Wold for a two hour workshop to delve deeper into the world of plotting. RSVP required.",
+		"guest_list": ["allenwold"],
+		"event_id": "2018-02-2412:00plottingworkshop",
+		"_id": "912018-02-2412:00plottingworkshop"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:00",
+		"location": "Dealer Room",
+		"title": "Zach Callison Autographs",
+		"description": "Zach Callison Autographs",
+		"guest_list": ["pending", "zachcallison"],
+		"event_id": "2018-02-2412:00zachcallisonautographs",
+		"_id": "922018-02-2412:00zachcallisonautographs"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:00",
+		"location": "Dogwood 1",
+		"title": "PODCAST: Geek Radio Daily",
+		"description": "Sit in on a live podcast by our Fan Guests of Honor, Geek Radio Daily.",
+		"guest_list": ["billyflynn", "richsigfrit", "theflynnstress"],
+		"event_id": "2018-02-2412:00podcastgeekradiodaily",
+		"_id": "932018-02-2412:00podcastgeekradiodaily"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:00",
+		"location": "Indie Film",
+		"title": "Clowning Around with Pirates (14+ Thematic Elements)",
+		"description": "All the world loves clowns and pirates, right? The Pirate Captain Toledano (USA 10:00), Man in Box (USA 5:00), Bogy (USA 36:00), Jimbo: Clowns Usually Juggle, Right? (*World Premiere* USA 8:52)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-2412:00clowningaroundwithpirates14thematicelements",
+		"_id": "942018-02-2412:00clowningaroundwithpirates14thematicelements"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "Crymsyn Hart",
+		"guest_list": ["crymsynhart"],
+		"event_id": "2018-02-2412:00guestsigningtablea",
+		"_id": "952018-02-2412:00guestsigningtablea"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table B",
+		"description": "Alexandra Christian",
+		"guest_list": ["alexandrachristian"],
+		"event_id": "2018-02-2412:00guestsigningtableb",
+		"_id": "962018-02-2412:00guestsigningtableb"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:00",
+		"location": "Vista Room",
+		"title": "Flabbergast Show",
+		"description": "Professional entertainer for four decades, Mark MacDicken performs comedy magic as the eccentric wizard “Flabbergast”. In recent years, “Flabbergast” has embraced the Mid-Atlantic region fan convention scene, performing at Awesome Con DC, Balticon, MystiCon, Geek Mob, Farpoint, Shore Leave, ConGregate, MarsCon, and adding more appearances all the time! The Wizard and his puppet friends are quickly becoming staples of local Renaissance Faires around Virginia and North Carolina.",
+		"guest_list": ["markmacdicken"],
+		"event_id": "2018-02-2412:00flabbergastshow",
+		"_id": "972018-02-2412:00flabbergastshow"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:30",
+		"location": "Dogwood 2",
+		"title": "Graphene",
+		"description": "The Superstrong, Superthin, and Superversatile Material That Will Revolutionize the World - What if you discovered an infinitesimally thin material capable of conducting electricity, able to suspend millions of times its own weight, and yet porous enough to filter the murkiest water? And what if this substance was created from the same element as that filling the common pencil? Graphene is a wonder material that is going to change our world.",
+		"guest_list": ["lesjohnson"],
+		"event_id": "2018-02-2412:30graphene",
+		"_id": "982018-02-2412:30graphene"
+	}, {
+		"day": "2018-02-24",
+		"time": "12:30",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "MxKnowitall",
+		"guest_list": ["mxknowitall"],
+		"event_id": "2018-02-2412:30authorreading",
+		"_id": "992018-02-2412:30authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "1:00",
+		"location": "Ballroom C",
+		"title": "Women Rocking Hollywood",
+		"description": "Wonder Woman broke all records in Hollywood for a film helmed by a female director. Now what? While there’s still a long way to go before women, who make up 51% of the population, are represented proportionately behind the camera, shows like Jessica Jones, Queen Sugar, and The Leftovers are making a huge difference by committing to the inclusion of female directors. This panel focuses on the incredibly talented, successful women who are expanding opportunities for women in film, who have made noise and are winning awards with their work on both the big and small screens.",
+		"guest_list": ["erinashley", "alexmatsuo", "gingersnaps", "mariahjohnson", "samanthabryant"],
+		"event_id": "2018-02-241:00womenrockinghollywood",
+		"_id": "1002018-02-241:00womenrockinghollywood"
+	}, {
+		"day": "2018-02-24",
+		"time": "1:00",
+		"location": "Ballroom D",
+		"title": "Beyond Western Europe - Other World Cultures for Fantasy",
+		"description": "Most Fantasy settings strongly resemble Western Europe to some degree. What other cultures have existed throughout world history that are worth considering as an alternative? What are the advantages and drawbacks to using them?",
+		"guest_list": ["richardcwhite", "amandamcgee", "frasersherman", "schouff", "stevenslong"],
+		"event_id": "2018-02-241:00beyondwesterneuropeotherworldculturesforfantasy",
+		"_id": "1012018-02-241:00beyondwesterneuropeotherworldculturesforfantasy"
+	}, {
+		"day": "2018-02-24",
+		"time": "1:00",
+		"location": "Dogwood 1",
+		"title": "Art in Science",
+		"description": "Science and art often intertwine. There is a natural beauty everywhere from geological formations in Dixie Caverns to streaming light emissions of the Northern Lights. Some art has to be discovered and science will be the tool to reveal them. Join our panelists as they share some examples of how they see beauty in scientific discoveries.",
+		"guest_list": ["markdavis", "jimbeall", "abbywallace", "brendenmagill"],
+		"event_id": "2018-02-241:00artinscience",
+		"_id": "1022018-02-241:00artinscience"
+	}, {
+		"day": "2018-02-24",
+		"time": "1:00",
+		"location": "Indie Film",
+		"title": "Teen Shorts",
+		"description": "Selected and presented by teens for teens. (Though adults will like them too!) A Dark Night at the Wrong House (USA 2:56),  Broadside (USA 3:25), Runaway Plane (USA 3:05), Virtual Life (India 17:00), Geek Ent (Romania 29:37)",
+		"guest_list": ["benjamenwalton", "haleywalton", "kaishenwalton"],
+		"event_id": "2018-02-241:00teenshorts",
+		"_id": "1032018-02-241:00teenshorts"
+	}, {
+		"day": "2018-02-24",
+		"time": "1:00",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "John Gaines",
+		"guest_list": ["johngaines"],
+		"event_id": "2018-02-241:00authorreading",
+		"_id": "1042018-02-241:00authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "1:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "Mark MacDicken",
+		"guest_list": ["markmacdicken"],
+		"event_id": "2018-02-241:00guestsigningtablea",
+		"_id": "1052018-02-241:00guestsigningtablea"
+	}, {
+		"day": "2018-02-24",
+		"time": "1:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table B",
+		"description": "Jason Gilbert",
+		"guest_list": ["jasongilbert"],
+		"event_id": "2018-02-241:00guestsigningtableb",
+		"_id": "1062018-02-241:00guestsigningtableb"
+	}, {
+		"day": "2018-02-24",
+		"time": "1:00",
+		"location": "Vista Room",
+		"title": "Clare Kramer GOH Interview",
+		"description": "Some have described her as, \"Glorificus, commonly known as Glory and also referred to as 'The Beast,' 'The Abomination,' 'That Which Cannot Be Named,' was a powerful goddess from a hell dimension, banished to Earth in human form, and one of the Scooby Gang's most dangerous enemies.\" Come find out more about this vixen in red and the nice lady who played her!",
+		"guest_list": ["jaysenbuterin", "clarekramer"],
+		"event_id": "2018-02-241:00clarekramergohinterview",
+		"_id": "1072018-02-241:00clarekramergohinterview"
+	}, {
+		"day": "2018-02-24",
+		"time": "1:30",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Les Johnson",
+		"guest_list": ["lesjohnson"],
+		"event_id": "2018-02-241:30authorreading",
+		"_id": "1082018-02-241:30authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "2:00",
+		"location": "Ballroom C",
+		"title": "The Author Dating Game",
+		"description": "We do 2 rounds of \"dating game\" - each round involves 1 reader and 3 authors.  The authors are asked a series of dating-style questions (where would you take someone on your first date, what is a perfect relationship for you, what are your turn ons, etc.) and they answer as one of their characters from their work.  At the end of the round, the reader picks which book they want to go on a date with - and gets a free copy of the book (either ebook or hard copy).",
+		"guest_list": ["thegiddygeeker", "carolthecatreader", "darinkennedyauthor", "jasongilbertauthor", "kimheadleeauthor", "michaeldavidandersonauthor", "mikepedersonreader"],
+		"event_id": "2018-02-242:00theauthordatinggame",
+		"_id": "1092018-02-242:00theauthordatinggame"
+	}, {
+		"day": "2018-02-24",
+		"time": "2:00",
+		"location": "Ballroom D",
+		"title": "Write a Song with Bella Morte",
+		"description": "Hang out with the band and write a song that gets sold at the Scholarship Auction!",
+		"guest_list": ["bellamorte"],
+		"event_id": "2018-02-242:00writeasongwithbellamorte",
+		"_id": "1102018-02-242:00writeasongwithbellamorte"
+	}, {
+		"day": "2018-02-24",
+		"time": "2:00",
+		"location": "Ballroom E",
+		"title": "Almost Famous",
+		"description": "How do you get your music/ movie/ podcast/ book/ cosplay/ photography/ etc. noticed outside your circle of friends? Join the panel of various talented people that are currently working on that goal. Take notes of our experiences that we've had and learn how to market your skills to the right people.",
+		"guest_list": ["lizlong", "angelmetro", "angelapritchett", "davidlee", "johnjohnson", "shawndurington"],
+		"event_id": "2018-02-242:00almostfamous",
+		"_id": "1112018-02-242:00almostfamous"
+	}, {
+		"day": "2018-02-24",
+		"time": "2:00",
+		"location": "Dogwood 1",
+		"title": "Iron Author",
+		"description": "Iron Author is the panel where teams of authors collaborate to write stories on the fly, based on suggestions from the audience.  The results are unpredictable and usually hilarious!  Audience members are encouraged to form their own teams and participate.  The finished stories will be collected and sold at the Mysticon scholarship auction.",
+		"guest_list": ["phyllisvaneps"],
+		"event_id": "2018-02-242:00ironauthor",
+		"_id": "1122018-02-242:00ironauthor"
+	}, {
+		"day": "2018-02-24",
+		"time": "2:00",
+		"location": "Dogwood 2",
+		"title": "Children's Program",
+		"description": "Children's Programming this year has a gaming theme. Come bring the kids to play board games and eat snacks. Kids Only Gaming Tournament will also take place during this time. Tiny Dungeons Kid Edition (2:15 - 3:15 pm) (3:15 - 4:15 pm) & My Little Pony Tails of Equestria (2:15 - 3:15 pm) (3:15 - 4:15 pm). Members of the Gaming Department will be carefully sign out and escort two shifts of kids (parents welcome) up to the 3rd Floor Gaming Room. (This is appropriate for ages 7-12). If they don't want to play in the tournament, then they can stay in the room with us and play different games!",
+		"guest_list": ["mjasonturner"],
+		"event_id": "2018-02-242:00childrensprogram",
+		"_id": "1132018-02-242:00childrensprogram"
+	}, {
+		"day": "2018-02-24",
+		"time": "2:00",
+		"location": "Indie Film",
+		"title": "Zombies and Comedy Horror",
+		"description": "Rent-A-Zombie (USA 3:39), Mr. Fuffles (USA 4:30), Lake Terror (Australia 9:20), Dark Roast (USA 19:55),SEEN (USA 4:00), The Wrong Guy (USA 6:36), The Visitor (USA 9:28)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-242:00zombiesandcomedyhorror",
+		"_id": "1142018-02-242:00zombiesandcomedyhorror"
+	}, {
+		"day": "2018-02-24",
+		"time": "2:00",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Stuart Jaffe",
+		"guest_list": ["stuartjaffe"],
+		"event_id": "2018-02-242:00authorreading",
+		"_id": "1152018-02-242:00authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "2:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "Mike Allen",
+		"guest_list": ["mikeallen"],
+		"event_id": "2018-02-242:00guestsigningtablea",
+		"_id": "1162018-02-242:00guestsigningtablea"
+	}, {
+		"day": "2018-02-24",
+		"time": "2:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table B",
+		"description": "R.S. Belcher",
+		"guest_list": ["rsbelcher"],
+		"event_id": "2018-02-242:00guestsigningtableb",
+		"_id": "1172018-02-242:00guestsigningtableb"
+	}, {
+		"day": "2018-02-24",
+		"time": "2:00",
+		"location": "Vista Room",
+		"title": "Zach Callison GOH Interview",
+		"description": "Zach Callison is an actor, voice actor and singer. He is widely known for voicing Steven in \"Steven Universe.\" He has a lot more to tell about who he is and what he's been up to lately!",
+		"guest_list": ["abigailwallace", "zachcallison"],
+		"event_id": "2018-02-242:00zachcallisongohinterview",
+		"_id": "1182018-02-242:00zachcallisongohinterview"
+	}, {
+		"day": "2018-02-24",
+		"time": "2:30",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Joe R. Landsdale",
+		"guest_list": ["joerlandsdale"],
+		"event_id": "2018-02-242:30authorreading",
+		"_id": "1192018-02-242:30authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "3:00",
+		"location": "Ballroom C",
+		"title": "The Match Game",
+		"description": "An annual MystiCon tradition is back! Re-live the glories of classic game shows, now with a Sci-Fi/Fantasy twist. Contestants from our audience will match wits with our guests!",
+		"guest_list": ["richsigfrit", "darinkennedy", "johnjohnson", "johnwatts", "markdavis", "stevenslong", "syrinx"],
+		"event_id": "2018-02-243:00thematchgame",
+		"_id": "1202018-02-243:00thematchgame"
+	}, {
+		"day": "2018-02-24",
+		"time": "3:00",
+		"location": "Ballroom D",
+		"title": "Women on the Dark Side",
+		"description": "Here's your chance to get some alone time with our musical guests for MystiCon 2018!",
+		"guest_list": ["erinashley", "alexandrachristian", "amandamcgee", "melissamcarthur", "schouff", "crymsynhart"],
+		"event_id": "2018-02-243:00womenonthedarkside",
+		"_id": "1212018-02-243:00womenonthedarkside"
+	}, {
+		"day": "2018-02-24",
+		"time": "3:00",
+		"location": "Ballroom E",
+		"title": "Bringing Horror Out of the Darkness",
+		"description": "The panelists will discuss how horror has changed over the years or not. And if other names, paranormal, urban fantasy, and others have taken away the stigma of the word horror.",
+		"guest_list": ["mikeallen", "johngaines", "michaeldavidanderson", "myronsmith", "pamelakkinney", "tallyjohnson"],
+		"event_id": "2018-02-243:00bringinghorroroutofthedarkness",
+		"_id": "1222018-02-243:00bringinghorroroutofthedarkness"
+	}, {
+		"day": "2018-02-24",
+		"time": "3:00",
+		"location": "Indie Film",
+		"title": "Local Filmmakers",
+		"description": "Films by filmmakers from Virginia and adjoining states will be highlighted. Twin (USA 9:06), Armstrong (USA 5:38), Isolation (USA 5:00), First Kiss (USA 12:49), A Slight Indiscretion (USA 10:01), The Painful Side of the Pillow (USA 7:12)                                                  Q&A with filmmakers, cast and crew to follow.",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-243:00localfilmmakers",
+		"_id": "1232018-02-243:00localfilmmakers"
+	}, {
+		"day": "2018-02-24",
+		"time": "3:00",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Jim Gaines",
+		"guest_list": ["jimgaines"],
+		"event_id": "2018-02-243:00authorreading",
+		"_id": "1242018-02-243:00authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "3:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "Stuart Jaffe",
+		"guest_list": ["stuartjaffe"],
+		"event_id": "2018-02-243:00guestsigningtablea",
+		"_id": "1252018-02-243:00guestsigningtablea"
+	}, {
+		"day": "2018-02-24",
+		"time": "3:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table B",
+		"description": "Angela Pritchett",
+		"guest_list": ["angelapritchett"],
+		"event_id": "2018-02-243:00guestsigningtableb",
+		"_id": "1262018-02-243:00guestsigningtableb"
+	}, {
+		"day": "2018-02-24",
+		"time": "3:00",
+		"location": "Vista Room",
+		"title": "The Quest for Gem Magic",
+		"description": "Steven Universe is a conceptually brilliant award winning animated television series. Noted for its strong female characters and sensitive treatment of childhood themes, Steven Universe is arguably one of the most unique animated series currently airing on television. Hear our panelists discuss all things Steven Universe!",
+		"guest_list": ["charmingcharley", "abbywallace", "drdanielwallace", "mxknowitall"],
+		"event_id": "2018-02-243:00thequestforgemmagic",
+		"_id": "1272018-02-243:00thequestforgemmagic"
+	}, {
+		"day": "2018-02-24",
+		"time": "3:30",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Jason T. Graves",
+		"guest_list": ["jasontgraves"],
+		"event_id": "2018-02-243:30authorreading",
+		"_id": "1282018-02-243:30authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "4:00",
+		"location": "Ballroom D",
+		"title": "Groupie Gathering",
+		"description": "Here's your chance to get some alone time with our musical guests for MystiCon 2018!",
+		"guest_list": ["na", "bellamorte", "thevailix", "thelibrarybards", "djangelmetro"],
+		"event_id": "2018-02-244:00groupiegathering",
+		"_id": "1292018-02-244:00groupiegathering"
+	}, {
+		"day": "2018-02-24",
+		"time": "4:00",
+		"location": "Ballroom E",
+		"title": "Time Travel and the Butterfly Effect",
+		"description": "How does time travel affect story lines and character development? How have our panelists handled this in their books? Come learn some tips and tricks for incorporating time travel into your stories.",
+		"guest_list": ["frasersherman", "jimbeall", "louantonelli", "michaeldavidanderson", "peterprellwitz", "robrichmond"],
+		"event_id": "2018-02-244:00timetravelandthebutterflyeffect",
+		"_id": "1302018-02-244:00timetravelandthebutterflyeffect"
+	}, {
+		"day": "2018-02-24",
+		"time": "4:00",
+		"location": "Dogwood 1",
+		"title": "A Touch of the Macabre",
+		"description": "Somewhere between fantasy and horror lies the macabre, the eerie, and the noir. What is it about certain imagery that tugs at the psyche in such a disturbing way? And how can artists use tone and technique to make you feel that the world isn’t quite as it should be?",
+		"guest_list": ["tallyjohnson", "crymsynhart", "mikeallen", "shroddey", "shawneesmall", "melissamcarthur"],
+		"event_id": "2018-02-244:00atouchofthemacabre",
+		"_id": "1312018-02-244:00atouchofthemacabre"
+	}, {
+		"day": "2018-02-24",
+		"time": "4:00",
+		"location": "Indie Film",
+		"title": "Step One: Write the Script!",
+		"description": "Good films start with good scripts. From the basics to writing for specific genres like horror, learn some tips and tricks to write for film.",
+		"guest_list": ["shawnwalton", "christineparker", "dansellers", "jdmayo", "stevenhancock", "billmulligan", "darrenconrad"],
+		"event_id": "2018-02-244:00steponewritethescript",
+		"_id": "1322018-02-244:00steponewritethescript"
+	}, {
+		"day": "2018-02-24",
+		"time": "4:00",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Travis Sivart",
+		"guest_list": ["travissivart"],
+		"event_id": "2018-02-244:00authorreading",
+		"_id": "1332018-02-244:00authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "4:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "Samantha Bryant",
+		"guest_list": ["samanthabryant"],
+		"event_id": "2018-02-244:00guestsigningtablea",
+		"_id": "1342018-02-244:00guestsigningtablea"
+	}, {
+		"day": "2018-02-24",
+		"time": "4:30",
+		"location": "Dealer Room",
+		"title": "Autographs: Clare Kramer and Zach Callison",
+		"description": "Autographs: Clare Kramer and Zach Callison",
+		"guest_list": ["na", "clarekramer", "zachcallison"],
+		"event_id": "2018-02-244:30autographsclarekramerandzachcallison",
+		"_id": "1352018-02-244:30autographsclarekramerandzachcallison"
+	}, {
+		"day": "2018-02-24",
+		"time": "4:30",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "S.C. Houff",
+		"guest_list": ["schouff"],
+		"event_id": "2018-02-244:30authorreading",
+		"_id": "1362018-02-244:30authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "4:30",
+		"location": "Vista Room",
+		"title": "Final Form Fusion",
+		"description": "Final Form Fusion is a troupe of professionally trained belly dancers brought together by a longing to express their mutual love of geek culture through music and dance. Assembled in the autumn of 2016, their mission is to create electric productions encompassing multiple genres, including horror, sci-fi, fantasy, anime, video games, and more!”",
+		"guest_list": ["finalformfusion"],
+		"event_id": "2018-02-244:30finalformfusion",
+		"_id": "1372018-02-244:30finalformfusion"
+	}, {
+		"day": "2018-02-24",
+		"time": "5:00",
+		"location": "Ballroom C",
+		"title": "Techniques for Teaching STEM - Part II",
+		"description": "Optics and Psychology Demos by Dr. Daniel Wallace!",
+		"guest_list": ["drdanielwallace", "abbywallace"],
+		"event_id": "2018-02-245:00techniquesforteachingstempartii",
+		"_id": "1382018-02-245:00techniquesforteachingstempartii"
+	}, {
+		"day": "2018-02-24",
+		"time": "5:00",
+		"location": "Ballroom D",
+		"title": "Creating an Author Platform to Promote Yourself on Social Media",
+		"description": "When publishing your first book, common advice is to start a website and join social media to promote the book. This is a sound idea, but most authors do not know how to tap into social media for their benefit and waste much time on repetitive marketing tasks that don’t seem to work. Instead, you need to create an \"engine\" to automatically distribute your marketing content to key sites and reduce your online workload. Spend more time writing and less time marketing yourself.",
+		"guest_list": ["thegiddygeeker", "alexandrachristian", "calvinpowers", "jkylemcneal", "richardcwhite", "robrichmond"],
+		"event_id": "2018-02-245:00creatinganauthorplatformtopromoteyourselfonsocialmedia",
+		"_id": "1392018-02-245:00creatinganauthorplatformtopromoteyourselfonsocialmedia"
+	}, {
+		"day": "2018-02-24",
+		"time": "5:00",
+		"location": "Ballroom E",
+		"title": "From Rocky Horror to Rifftrax: The Art of Talking at the Movies",
+		"description": "A phenomenon that started in 1976 at The Rocky Horror Picture Show and has since become mainstream pop culture thanks to Mystery Science Theater 3000 and RiffTrax. Join the cast of Charming Underclothes as we go over the history and the current influences of audience participation and learn how to turn any movie into a cinematic classic. Panelists: Ashley Brightwell (Ginger Snaps), Syrinx, Meredith Bowman-Shelton (Dark N Stormy), Gary Harras (Reeper), Brittany Davis (Wednesday Mourning), Patricia Stroud (Pattycakes)",
+		"guest_list": ["billyflynn", "charmingcharley", "darknstormy", "eddiesteddy", "gingersnaps", "lynniaruby", "pattycakes"],
+		"event_id": "2018-02-245:00fromrockyhorrortorifftraxtheartoftalkingatthemovies",
+		"_id": "1402018-02-245:00fromrockyhorrortorifftraxtheartoftalkingatthemovies"
+	}, {
+		"day": "2018-02-24",
+		"time": "5:00",
+		"location": "Indie Film",
+		"title": "Local Short and Feature Length",
+		"description": "SHORT: To-Do (USA 20:34) FEATURE FILM: Deadlines (USA 1:30:50) Fifty years after a Drifter passed through small town Woods Creek, an old newspaper surfaces reminding the residents of the deadly chaos of 1962, just as the Drifter returns with some unfinished business. Q&A to follow with filmmaker/cast/crew to follow.",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-245:00localshortandfeaturelength",
+		"_id": "1412018-02-245:00localshortandfeaturelength"
+	}, {
+		"day": "2018-02-24",
+		"time": "5:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "Darin Kennedy",
+		"guest_list": ["darinkennedy"],
+		"event_id": "2018-02-245:00guestsigningtablea",
+		"_id": "1422018-02-245:00guestsigningtablea"
+	}, {
+		"day": "2018-02-24",
+		"time": "5:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table B",
+		"description": "Jason T. Graves",
+		"guest_list": ["jasontgraves"],
+		"event_id": "2018-02-245:00guestsigningtableb",
+		"_id": "1432018-02-245:00guestsigningtableb"
+	}, {
+		"day": "2018-02-24",
+		"time": "5:30",
+		"location": "Rm 533",
+		"title": "Author Reading Room",
+		"description": "Peter Prellwitz",
+		"guest_list": ["peterprellwitz"],
+		"event_id": "2018-02-245:30authorreadingroom",
+		"_id": "1442018-02-245:30authorreadingroom"
+	}, {
+		"day": "2018-02-24",
+		"time": "6:00",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Alexandra Christian",
+		"guest_list": ["alexandrachristian"],
+		"event_id": "2018-02-246:00authorreading",
+		"_id": "1452018-02-246:00authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "6:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "R.S. Belcher",
+		"guest_list": ["rsbelcher"],
+		"event_id": "2018-02-246:00guestsigningtablea",
+		"_id": "1462018-02-246:00guestsigningtablea"
+	}, {
+		"day": "2018-02-24",
+		"time": "6:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table B",
+		"description": "S.C. Houff",
+		"guest_list": ["schouff"],
+		"event_id": "2018-02-246:00guestsigningtableb",
+		"_id": "1472018-02-246:00guestsigningtableb"
+	}, {
+		"day": "2018-02-24",
+		"time": "6:00",
+		"location": "Vista Room",
+		"title": "Tommy Dreamer & Tha True Original GATA GOH Interview",
+		"description": "Tommy Dreamer & Tha True Original GATA GOH Interview",
+		"guest_list": ["keithstanley", "thetrueoriginalgata", "tommydreamer"],
+		"event_id": "2018-02-246:00tommydreamerthatrueoriginalgatagohinterview",
+		"_id": "1482018-02-246:00tommydreamerthatrueoriginalgatagohinterview"
+	}, {
+		"day": "2018-02-24",
+		"time": "7:00",
+		"location": "Combined CDE",
+		"title": "Masquerade & Entertainment",
+		"description": "Annual MystiCon Masquerade with Entertainment provided by The Library Bards!",
+		"guest_list": ["richsigfrit", "thelibrarybards", "markmacdicken", "billyflynn", "jillianryan", "chrisslattery", "hazeldayze"],
+		"event_id": "2018-02-247:00masqueradeentertainment",
+		"_id": "1492018-02-247:00masqueradeentertainment"
+	}, {
+		"day": "2018-02-24",
+		"time": "7:00",
+		"location": "Indie Film",
+		"title": "Local Filmmakers",
+		"description": "Films by filmmakers from Virginia and adjoining states will be highlighted. The Blood of the Mummy Trailer (USA 2:00), The Last AirBnB (USA 12:24), The Rest of Your Life (USA 7:42), The Face (USA 3:15), H.P. Lovecraft's The Beast In The Cave (USA 6:28), Midnight Shift (USA 20:00) Q &A with filmmakers, cast, and crew to follow.",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-247:00localfilmmakers",
+		"_id": "1502018-02-247:00localfilmmakers"
+	}, {
+		"day": "2018-02-24",
+		"time": "7:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "MxKnowitall",
+		"guest_list": ["mxknowitall"],
+		"event_id": "2018-02-247:00guestsigningtablea",
+		"_id": "1512018-02-247:00guestsigningtablea"
+	}, {
+		"day": "2018-02-24",
+		"time": "7:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table B",
+		"description": "Peter Prellwitz",
+		"guest_list": ["peterprellwitz"],
+		"event_id": "2018-02-247:00guestsigningtableb",
+		"_id": "1522018-02-247:00guestsigningtableb"
+	}, {
+		"day": "2018-02-24",
+		"time": "7:00",
+		"location": "Vista Room",
+		"title": "Surprisingly OK",
+		"description": "A panel to discuss all things Sherlock (BBC, and any other incarnation).",
+		"guest_list": ["johngaines", "alexandrachristian", "frasersherman", "jasongilbert", "johnlfrench", "shroddey"],
+		"event_id": "2018-02-247:00surprisinglyok",
+		"_id": "1532018-02-247:00surprisinglyok"
+	}, {
+		"day": "2018-02-24",
+		"time": "8:00",
+		"location": "Indie Film",
+		"title": "World Premiere Films!",
+		"description": "Uni-Verse (USA 5:03), iWorld (Ireland 4:00), Perfunct (Canada 11:26), I Feel (USA 9:53), Closing Time (USA 19:52) Q&A with Dave Harlequin and Chris Esper to follow.",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-248:00worldpremierefilms",
+		"_id": "1542018-02-248:00worldpremierefilms"
+	}, {
+		"day": "2018-02-24",
+		"time": "8:00",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "Broad Universe Rapid Fire Reading",
+		"guest_list": ["broaduniverserapidfirereading"],
+		"event_id": "2018-02-248:00authorreading",
+		"_id": "1552018-02-248:00authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "8:30",
+		"location": "Dogwood 1",
+		"title": "Giddy Geeker's Speed Dating",
+		"description": "Speed Dating Geek Style! Participants must sign up at the MystiCon Registration table to participate. Liquid courage will be available for purchase! (21+)",
+		"guest_list": ["thegiddygeeker", "carolthecat"],
+		"event_id": "2018-02-248:30giddygeekersspeeddating",
+		"_id": "1562018-02-248:30giddygeekersspeeddating"
+	}, {
+		"day": "2018-02-24",
+		"time": "9:00",
+		"location": "Indie Film",
+		"title": "World Premiere: Killing Giggles",
+		"description": "Join our Indie Film Guest of Honour, Jaysen Buterin, plus cast members and crew as your favorite inmates running the cinematic asylum at Mad Ones Films premieres their short film KILLING GIGGLES!! In addition to the world premier, the Mad Ones will present their trilogy of clown-killing teasers for the feature film version coming soon, KILL GIGGLES!!  Followed by Filmmaker Meet & Greet (9:30 PM)",
+		"guest_list": ["shawnwalton", "jaysenbuterin"],
+		"event_id": "2018-02-249:00worldpremierekillinggiggles",
+		"_id": "1572018-02-249:00worldpremierekillinggiggles"
+	}, {
+		"day": "2018-02-24",
+		"time": "9:00",
+		"location": "Signing Tables",
+		"title": "Guest Signing Table A",
+		"description": "Kim Headlee",
+		"guest_list": ["kimheadlee"],
+		"event_id": "2018-02-249:00guestsigningtablea",
+		"_id": "1582018-02-249:00guestsigningtablea"
+	}, {
+		"day": "2018-02-24",
+		"time": "9:00",
+		"location": "Vista Room",
+		"title": "Scholarship Auction",
+		"description": "Every year MystiCon offers one merit scholarship for original and creative works in creative writing and/or art. This year's scholarship was open to college-bound Virginia High School seniors graduating in the 2017-2018 school year or 2017-2018 college Freshman. The award amount is a minimum of $500. We have picked a winner and you can help add to their scholarship by buying all the cool stuff we pulled together for this auction! Please support this worthy cause and have a great time doing it!",
+		"guest_list": ["billyflynn", "richsigfrit"],
+		"event_id": "2018-02-249:00scholarshipauction",
+		"_id": "1592018-02-249:00scholarshipauction"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:00",
+		"location": "Dogwood 1",
+		"title": "Ghosts, Witches, Wizards, Magic: Shakespeare and the Supernatural",
+		"description": "Many of Shakespeare’s most beloved plays employ Supernatural elements and creatures to advance plots and torment his main characters. In The Tempest the main character, Prospero, is a magician! Poor Hamlet sees his father’s ghost! Panelists conjure up the history of Shakespeare’s fascination with otherworldly realms in this spooky panel.",
+		"guest_list": ["terafulbright", "alexmatsuo", "melissamcarthur", "tallyjohnson"],
+		"event_id": "2018-02-2410:00ghostswitcheswizardsmagicshakespeareandthesupernatural",
+		"_id": "1602018-02-2410:00ghostswitcheswizardsmagicshakespeareandthesupernatural"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:00",
+		"location": "Dogwood 2",
+		"title": "No Sympathy for the Devil: Protagonists Beyond Redemption",
+		"description": "In some fiction, the protagonist is not an antihero but an actual villain. Sometimes this is done for comedic effect, sometimes it is straight drama. How do you bring the reader/viewer into such material without turning off everyone but sociopaths?",
+		"guest_list": ["darinkennedy", "alexandrachristian", "johnlfrench", "pamelakkinney", "shroddey"],
+		"event_id": "2018-02-2410:00nosympathyforthedevilprotagonistsbeyondredemption",
+		"_id": "1612018-02-2410:00nosympathyforthedevilprotagonistsbeyondredemption"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:00",
+		"location": "Indie Film",
+		"title": "This is Thriller! (14+)",
+		"description": "Do you like your fear mess-free? These films scare without gore. We can't claim they won't mess YOU up, though. Bad Habits (Cypress 15:33), Midnight Creeks (USA 3:00), Bless You (UK 2:04), Domine (Italy 11:14), Good night Finn (Iceland 3:52), Gridlock (Ireland 19:45)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-2410:00thisisthriller14",
+		"_id": "1622018-02-2410:00thisisthriller14"
+	}, {
+		"day": "2018-02-24",
+		"time": "10:30",
+		"location": "Rm 533",
+		"title": "Author Reading",
+		"description": "R.S. Belcher",
+		"guest_list": ["rsbelcher"],
+		"event_id": "2018-02-2410:30authorreading",
+		"_id": "1632018-02-2410:30authorreading"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Dogwood 1",
+		"title": "Haunted Soundscape: The Roanoke Valley",
+		"description": "Listen while Tally Johnson tells you spooky ghost stories about the Roanoke Valley and surrounding areas.",
+		"guest_list": ["tallyjohnson"],
+		"event_id": "2018-02-2411:00hauntedsoundscapetheroanokevalley",
+		"_id": "1642018-02-2411:00hauntedsoundscapetheroanokevalley"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Dogwood 2",
+		"title": "This One Time at the Con",
+		"description": "You've probably heard them. Those unblievable stories about the wild, crazy, and often hilarious things that happen at cons. Maybe it was that one room party that got way out of hand, maybe it was that surreal celebrity guest interaction, maybe it was something else entirely. No matter what it was, whether unforgettable, or shall we say, a bit hazy, this is the place to hear all of the wildest stories cons have to offer! (18+)",
+		"guest_list": ["daveharlequin", "markdavis"],
+		"event_id": "2018-02-2411:00thisonetimeatthecon",
+		"_id": "1652018-02-2411:00thisonetimeatthecon"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Combined CDE",
+		"title": "MystiCon Musical Extravaganza",
+		"description": "DJ Angel Metro and The Vailix open for Bella Morte",
+		"guest_list": ["syrinx", "bellamorte", "thevailix", "djangelmetro"],
+		"event_id": "2018-02-2411:00mysticonmusicalextravaganza",
+		"_id": "1662018-02-2411:00mysticonmusicalextravaganza"
+	}, {
+		"day": "2018-02-24",
+		"time": "11:00",
+		"location": "Indie Film",
+		"title": "Spinning the Splatters",
+		"description": "Get your horror and stomach churning chills!  Quack (USA 9:36), Flesh and Blood (USA 17:23), New Neighbors (USA 9:25), The Least Amoung Us (USA 7:33), Gut Punched (USA 10:00), Q&A to follow with Christopher Moore and William Coughlan",
+		"guest_list": ["shawnwalton", "christophermoore", "williamcoughlan"],
+		"event_id": "2018-02-2411:00spinningthesplatters",
+		"_id": "1672018-02-2411:00spinningthesplatters"
+	}, {
+		"day": "2018-02-25",
+		"time": "12:00",
+		"location": "Indie Film",
+		"title": "Midnight Movie Madness",
+		"description": "SHORTS: Toggle (USA 10:11), Framed (Spain 9:00), The Salesmen (USA 8:00), The Wrong Profile (USA 14:38) FEATURE: The Man Who Was Thursday (Hungary 1:34:50) - or - The Scrapbooker (Roanoke 1:07:33)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-2512:00midnightmoviemadness",
+		"_id": "1682018-02-2512:00midnightmoviemadness"
+	}, {
+		"day": "2018-02-25",
+		"time": "12:00",
+		"location": "Vista Room",
+		"title": "Cards Against Humanity",
+		"description": "Gaming is hosting Cards Against Humanity in the Vista Room!",
+		"guest_list": [],
+		"event_id": "2018-02-2512:00cardsagainsthumanity",
+		"_id": "1692018-02-2512:00cardsagainsthumanity"
+	}, {
+		"day": "2018-02-25",
+		"time": "12:00",
+		"location": "Dogwood 2",
+		"title": "Drum Circle: We've Got the Beat",
+		"description": "Drum Circle: We've Got the Beat",
+		"guest_list": [],
+		"event_id": "2018-02-2512:00drumcirclewevegotthebeat",
+		"_id": "1702018-02-2512:00drumcirclewevegotthebeat"
+	}, {
+		"day": "2018-02-25",
+		"time": "9:00",
+		"location": "Ballroom C",
+		"title": "Balancing the Geek Live with Mundane Adulting",
+		"description": "Just how do you pursue a creative life, all while trying to figure out the whole \"adulting\" thing? There are many factors to take into consideration with every person, and we can figure it out together!",
+		"guest_list": ["peterprellwitz", "louantonelli", "terafulbright"],
+		"event_id": "2018-02-259:00balancingthegeeklivewithmundaneadulting",
+		"_id": "1712018-02-259:00balancingthegeeklivewithmundaneadulting"
+	}, {
+		"day": "2018-02-25",
+		"time": "9:00",
+		"location": "Ballroom D",
+		"title": "Judging a Book by its Cover",
+		"description": "Research has shown that 53% of a book’s sales are based solely on its cover, so getting it right is critical to your book’s success. You may have the best blurb, but if no one ever picks your book up to read it, you're not going to get the chance to hook them. It’s your job to know what makes a successful cover, not your graphic designer! This session will not only show you how to design an effective cover for your book, it will also lead you through the production process to get it completed.",
+		"guest_list": ["jamesgaines", "mxknowitall", "pamelakkinney", "shawneesmall", "stuartjaffe"],
+		"event_id": "2018-02-259:00judgingabookbyitscover",
+		"_id": "1722018-02-259:00judgingabookbyitscover"
+	}, {
+		"day": "2018-02-25",
+		"time": "9:00",
+		"location": "Dogwood 1",
+		"title": "Military Psychology",
+		"description": "This may be a new twist to add into a military fiction panel. In some circles, there are misconceptions that the military trains soldiers to be mindless killers. That is not true. Operational psychology panels and tests actually screens those traits out. There is also a misconception that everyone in the military develops PTSD--also untrue. The last numbers I saw showed that about one third develop PTSD. If you have a panel on military fiction, this may be a good/fun subject to add in.",
+		"guest_list": ["erinashley", "darinkennedy", "richardcwhite"],
+		"event_id": "2018-02-259:00militarypsychology",
+		"_id": "1732018-02-259:00militarypsychology"
+	}, {
+		"day": "2018-02-25",
+		"time": "9:00",
+		"location": "Ballroom E",
+		"title": "Non-Denominational Service",
+		"description": "",
+		"guest_list": ["drdanielwallace", "markmacdicken"],
+		"event_id": "2018-02-259:00nondenominationalservice",
+		"_id": "1742018-02-259:00nondenominationalservice"
+	}, {
+		"day": "2018-02-25",
+		"time": "9:00",
+		"location": "Dogwood 2",
+		"title": "CSI 101 Workshop",
+		"description": "John L. French, of the Baltimore City Police Department's Crime Scene Unit , discusses the theory and practice of crime scene investigation as it really is and not how it's presented on TV. Workshop is free, but space is limited. Please sign up at Registration if you'd like to attend.",
+		"guest_list": ["johnlfrench"],
+		"event_id": "2018-02-259:00csi101workshop",
+		"_id": "1752018-02-259:00csi101workshop"
+	}, {
+		"day": "2018-02-25",
+		"time": "8:00",
+		"location": "Indie Film",
+		"title": "All Ages Shorts and Fan Films",
+		"description": "Rain (USA 1:11), My Little Brother (New Zealand 6:34), Home Sweet Home (Norway 2:00), Hirvio (USA 3:26), Rain (USA 5:00), The Novice (USA 3:32), Force-Full Imagination (USA 4:02), Force-Full Imagination Pt 2 (USA 3:25), City Lights (USA 2:20), Tools of the Trade (USA 3:10), Chrissy and Koen (USA/UK 2:00), If You Fall (Canada 6:04), Star Wars: The Force Awakens Sweded (USA 7:45), Wonder Woman Revealed (USA 3:31)",
+		"guest_list": [],
+		"event_id": "2018-02-258:00allagesshortsandfanfilms",
+		"_id": "1762018-02-258:00allagesshortsandfanfilms"
+	}, {
+		"day": "2018-02-25",
+		"time": "9:00",
+		"location": "Indie Film",
+		"title": "Fan Films",
+		"description": "Films made in appreciation of mainstream films, toys, and games.   Emoticon Man (Greece 15:00), Third Son: The Black Files Ep 2 (USA 15:08), Aeon (Cypress 8:45), An Idiot's Array: A Star Wars Short Story (USA 18:09)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-259:00fanfilms",
+		"_id": "1772018-02-259:00fanfilms"
+	}, {
+		"day": "2018-02-25",
+		"time": "10:00",
+		"location": "Ballroom C",
+		"title": "The Last Racebenders/ Genderbenders",
+		"description": "Changing races, genders, etc. of established characters in movies, comics, and television. It's been time and time again- how does this impact a series or film?",
+		"guest_list": ["amandamcgee", "darinkennedy", "alexmatsuo", "peterprellwitz", "samanthabryant"],
+		"event_id": "2018-02-2510:00thelastracebendersgenderbenders",
+		"_id": "1782018-02-2510:00thelastracebendersgenderbenders"
+	}, {
+		"day": "2018-02-25",
+		"time": "10:00",
+		"location": "Dogwood 1",
+		"title": "Out of the Box",
+		"description": "In the current eBook market, it's imperative that new authors become marketing experts.  Panelists share their ideas for creative marketing plans, having realistic expectations and horror stories of \"marketing gone wrong.\"",
+		"guest_list": ["erinashley", "kimheadlee", "shawneesmall", "stuartjaffe", "travissivart"],
+		"event_id": "2018-02-2510:00outofthebox",
+		"_id": "1792018-02-2510:00outofthebox"
+	}, {
+		"day": "2018-02-25",
+		"time": "10:00",
+		"location": "Ballroom E",
+		"title": "Keep Calm & Carry Yarn",
+		"description": "Bring your knit, crochet, sewing or other crafty-type project and work on it in a semisocial setting with other crafty folks at an ungodly-early hour. Caffeine consumption is encouraged, but (like your project) you’ll have to bring your own. All skill levels welcome.",
+		"guest_list": [],
+		"event_id": "2018-02-2510:00keepcalmcarryyarn",
+		"_id": "1802018-02-2510:00keepcalmcarryyarn"
+	}, {
+		"day": "2018-02-25",
+		"time": "10:00",
+		"location": "Ballroom D",
+		"title": "World Building 101",
+		"description": "Workshop lead by Richard C. White. Space is limited, but workshop is free. Just sign up at Registration!",
+		"guest_list": ["richardcwhite"],
+		"event_id": "2018-02-2510:00worldbuilding101",
+		"_id": "1812018-02-2510:00worldbuilding101"
+	}, {
+		"day": "2018-02-25",
+		"time": "10:00",
+		"location": "Dogwood 2",
+		"title": "Writing Panel",
+		"description": "Closed Session",
+		"guest_list": ["allenwold", "kimheadlee", "mikeallen", "rsbelcher"],
+		"event_id": "2018-02-2510:00writingpanel",
+		"_id": "1822018-02-2510:00writingpanel"
+	}, {
+		"day": "2018-02-25",
+		"time": "10:00",
+		"location": "Indie Film",
+		"title": "What is Love? (Baby Don't Hurt Me)",
+		"description": "Finding love can be tough but at least we have short films to help us laugh - or cry - about it! Shades (India 8:31), Undatement Center (USA 9:00), American Sock (USA 7:09), The Bridge (UK 15:00), Chasing Tomorrow (Singapore 12:00), Band or Album (USA 7:00)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-2510:00whatislovebabydonthurtme",
+		"_id": "1832018-02-2510:00whatislovebabydonthurtme"
+	}, {
+		"day": "2018-02-25",
+		"time": "10:00",
+		"location": "Rm 533",
+		"title": "Author Reading Room",
+		"description": "MxKnowitall",
+		"guest_list": ["mxknowitall"],
+		"event_id": "2018-02-2510:00authorreadingroom",
+		"_id": "1842018-02-2510:00authorreadingroom"
+	}, {
+		"day": "2018-02-25",
+		"time": "10:00",
+		"location": "Signing Tables",
+		"title": "Signing Table A",
+		"description": "Mark MacDicken",
+		"guest_list": ["markmacdicken"],
+		"event_id": "2018-02-2510:00signingtablea",
+		"_id": "1852018-02-2510:00signingtablea"
+	}, {
+		"day": "2018-02-25",
+		"time": "10:00",
+		"location": "Vista Room",
+		"title": "Clare Kramer GOH Interview",
+		"description": "Some have described her as, \"Glorificus, commonly known as Glory and also referred to as 'The Beast,' 'The Abomination,' 'That Which Cannot Be Named,' was a powerful goddess from a hell dimension, banished to Earth in human form, and one of the Scooby Gang's most dangerous enemies.\" Come find out more about this vixen in red and the nice lady who played her!",
+		"guest_list": ["mikepederson", "clarekramer"],
+		"event_id": "2018-02-2510:00clarekramergohinterview",
+		"_id": "1862018-02-2510:00clarekramergohinterview"
+	}, {
+		"day": "2018-02-25",
+		"time": "11:00",
+		"location": "Vista Room",
+		"title": "Zach Callison GOH Interview",
+		"description": "Zach Callison is an actor, voice actor and singer. He is widely known for voicing Steven in \"Steven Universe.\" He has a lot more to tell about who he is and what he's been up to lately!",
+		"guest_list": ["thebrindlescarlakeraandcheka", "zachcallison"],
+		"event_id": "2018-02-2511:00zachcallisongohinterview",
+		"_id": "1872018-02-2511:00zachcallisongohinterview"
+	}, {
+		"day": "2018-02-25",
+		"time": "11:00",
+		"location": "Ballroom C",
+		"title": "Ready Player One",
+		"description": "The movie adaptation of this well-loved novel is out next month. It has enough pop culture easter eggs to satisfy the geek in all of us. Not to mention, the book is an exciting trip through a not-so-distant future. The caracters are compelling and the story is unbeatable. Come see what all the excitement is all about!",
+		"guest_list": ["eddiesteddy", "daveharlequin", "mjasonturner"],
+		"event_id": "2018-02-2511:00readyplayerone",
+		"_id": "1882018-02-2511:00readyplayerone"
+	}, {
+		"day": "2018-02-25",
+		"time": "11:00",
+		"location": "Ballroom D",
+		"title": "It's the Final Countdown",
+		"description": "You sang that in your head, right? come learn how musical influences have touched Science Fiction writing. Learn from a variety of authors and what music they've used as influences in their writings.",
+		"guest_list": ["jasongilbert", "darinkennedy", "melissamcarthur", "robrichmond", "shroddey", "terafulbright"],
+		"event_id": "2018-02-2511:00itsthefinalcountdown",
+		"_id": "1892018-02-2511:00itsthefinalcountdown"
+	}, {
+		"day": "2018-02-25",
+		"time": "11:00",
+		"location": "Dogwood 1",
+		"title": "Costuming Form, Function & Fantasy",
+		"description": "Costume designers discuss the merits of costuming in different applications from comics, to movies, to video games and cosplay. What design choices are rooted in functionality and what just looks cool.",
+		"guest_list": ["anitaallen", "angelapritchett", "davidlee", "jillianryan", "matthewpenick"],
+		"event_id": "2018-02-2511:00costumingformfunctionfantasy",
+		"_id": "1902018-02-2511:00costumingformfunctionfantasy"
+	}, {
+		"day": "2018-02-25",
+		"time": "11:00",
+		"location": "Dogwood 2",
+		"title": "So, You've Got a Manuscript…?",
+		"description": "Aspiring authors and others interested in learning about how small presses evaluate manuscripts for possible publication are welcome to attend. Jason Graves, Publisher and Chief Editor at Prospective Press, will run the workshop, which will include a short presentation on best practices, a question and answer time, and a Pitch the Press session. Workshop is free, but space is limited. Please sign up at Registration if you'd like to attend.",
+		"guest_list": ["jasontgraves"],
+		"event_id": "2018-02-2511:00soyouvegotamanuscript",
+		"_id": "1912018-02-2511:00soyouvegotamanuscript"
+	}, {
+		"day": "2018-02-25",
+		"time": "11:00",
+		"location": "Indie Film",
+		"title": "Cream of the International Crop Shorts",
+		"description": "Truly fine films, beautifully made, not to be missed! Snowgirl (Bulgaria 28:00), Lost Face (Canada 14:13), Senses (India 14:44)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-2511:00creamoftheinternationalcropshorts",
+		"_id": "1922018-02-2511:00creamoftheinternationalcropshorts"
+	}, {
+		"day": "2018-02-25",
+		"time": "11:00",
+		"location": "Signing Tables",
+		"title": "Signing Table A",
+		"description": "MxKnowitall",
+		"guest_list": ["mxknowitall"],
+		"event_id": "2018-02-2511:00signingtablea",
+		"_id": "1932018-02-2511:00signingtablea"
+	}, {
+		"day": "2018-02-25",
+		"time": "12:00",
+		"location": "Ballroom C",
+		"title": "Techniques for Teaching STEM-Part III",
+		"description": "Physics and Electricity Demonstrations with style with Dr. Daniel Wallace! Last chance to catch Dr. W in action! This is a great show and you learn something as well!",
+		"guest_list": ["drdanielwallace", "abbywallace"],
+		"event_id": "2018-02-2512:00techniquesforteachingstempartiii",
+		"_id": "1942018-02-2512:00techniquesforteachingstempartiii"
+	}, {
+		"day": "2018-02-25",
+		"time": "12:00",
+		"location": "Ballroom D",
+		"title": "Epic Scale Fiction",
+		"description": "How can we maintain canon and consistency as our fictional universe expands and expands?",
+		"guest_list": ["amandamcgee", "jimgaines", "kimheadlee", "michaeldavidanderson", "peterprellwitz", "rsbelcher"],
+		"event_id": "2018-02-2512:00epicscalefiction",
+		"_id": "1952018-02-2512:00epicscalefiction"
+	}, {
+		"day": "2018-02-25",
+		"time": "12:00",
+		"location": "Ballroom E",
+		"title": "Marvel Cinematic Universe: Media, Comics & Understanding",
+		"description": "Discuss the theories and piece together the entire timeline of the Marvel Cinematic Universe. This discussion will include all of the theatrical movies and television shows.",
+		"guest_list": ["michaelpederson", "johngaines", "mjasonturner", "schouff"],
+		"event_id": "2018-02-2512:00marvelcinematicuniversemediacomicsunderstanding",
+		"_id": "1962018-02-2512:00marvelcinematicuniversemediacomicsunderstanding"
+	}, {
+		"day": "2018-02-25",
+		"time": "12:00",
+		"location": "Dealer Room",
+		"title": "Autographs: Clare Kramer and Zach Callison",
+		"description": "",
+		"guest_list": ["na", "clarekramer", "zachcallison"],
+		"event_id": "2018-02-2512:00autographsclarekramerandzachcallison",
+		"_id": "1972018-02-2512:00autographsclarekramerandzachcallison"
+	}, {
+		"day": "2018-02-25",
+		"time": "12:00",
+		"location": "Dogwood 1",
+		"title": "Medium Difficulty",
+		"description": "Medium Difficulty -  Veteran costumers and cosplayers discuss what mediums to use in different projects. Tips, tricks, which are favorites, and which to avoid.",
+		"guest_list": ["matthewpenick", "anitaallen", "jillianryan"],
+		"event_id": "2018-02-2512:00mediumdifficulty",
+		"_id": "1982018-02-2512:00mediumdifficulty"
+	}, {
+		"day": "2018-02-25",
+		"time": "12:00",
+		"location": "Signing Tables",
+		"title": "Signing Table A",
+		"description": "Alexandra Christian",
+		"guest_list": ["alexandrachristian"],
+		"event_id": "2018-02-2512:00signingtablea",
+		"_id": "1992018-02-2512:00signingtablea"
+	}, {
+		"day": "2018-02-25",
+		"time": "12:00",
+		"location": "Signing Tables",
+		"title": "Signing Table B",
+		"description": "Jason Gilbert",
+		"guest_list": ["jasongilbert"],
+		"event_id": "2018-02-2512:00signingtableb",
+		"_id": "2002018-02-2512:00signingtableb"
+	}, {
+		"day": "2018-02-25",
+		"time": "12:00",
+		"location": "Vista Room",
+		"title": "Rick Riordan",
+		"description": "Rick Riordan's books have brought to life back into centuries old stories. Riordan has captured a whole new audience when it comes to Greek mythology. Some of his books are even movies now, and take us on a new adventure with many old, well-loved characters.",
+		"guest_list": ["eddiesteddy", "charmingcharlie", "darknstormy"],
+		"event_id": "2018-02-2512:00rickriordan",
+		"_id": "2012018-02-2512:00rickriordan"
+	}, {
+		"day": "2018-02-25",
+		"time": "1:00",
+		"location": "Ballroom C",
+		"title": "Geek Trivia for Chocolate",
+		"description": "Bring your catcher's mit and thinking cap for this one! Quick wit get's you Chocolate in this panel!!",
+		"guest_list": ["stevenslong"],
+		"event_id": "2018-02-251:00geektriviaforchocolate",
+		"_id": "2022018-02-251:00geektriviaforchocolate"
+	}, {
+		"day": "2018-02-25",
+		"time": "1:00",
+		"location": "Ballroom D",
+		"title": "Genre Blending: SciFi Fantasy and More",
+		"description": "Mixing science fiction and fantasy with other genres like mystery and westerns can give you a genre cocktail that is great...or very, very bad. Some authors have been hugely successful, while others have crashed and burned. Our experts tell you how to get it just right.",
+		"guest_list": ["darinkennedy", "erinashley", "jamesgaines", "johngaines", "melissamcarthur", "shroddey"],
+		"event_id": "2018-02-251:00genreblendingscififantasyandmore",
+		"_id": "2032018-02-251:00genreblendingscififantasyandmore"
+	}, {
+		"day": "2018-02-25",
+		"time": "1:00",
+		"location": "Ballroom E",
+		"title": "Can Space Tech Solve Real Earth Problems?",
+		"description": "Harvesting Space for a Greener Earth - Learn how space technology and development can help solve real problems here on Earth, from climate change to resource scarcity.",
+		"guest_list": ["lesjohnson"],
+		"event_id": "2018-02-251:00canspacetechsolverealearthproblems",
+		"_id": "2042018-02-251:00canspacetechsolverealearthproblems"
+	}, {
+		"day": "2018-02-25",
+		"time": "1:00",
+		"location": "Dogwood 1",
+		"title": "Super Weird Heros",
+		"description": "A way-fun discussion of the kookiest, kraziest, most bizarro leotard-clad bad-guy-bashers of the Golden Age of comic books! The Hand, a giant hand! Madam Fatale, the first cross-dressing superhero! Kangaroo Man (Batman was taken) and tons more nutty-cool heroes held up to reverence and ridicule!",
+		"guest_list": ["billmulligan", "louantonelli", "mjasonturner"],
+		"event_id": "2018-02-251:00superweirdheros",
+		"_id": "2052018-02-251:00superweirdheros"
+	}, {
+		"day": "2018-02-25",
+		"time": "1:00",
+		"location": "Dogwood 2",
+		"title": "Makeup Workshop",
+		"description": "In this fun and spooky, 1.5 hour injury makeup workshop where you will learn various special effects make-up techniques working with some of the same materials used by professional make-up artists. Students will learn to create fake scars, bruises, cuts and burns in this hands-on class. Students will be applying materials directly to skin - if you have any allergies please let us know when you register.   WARNING - this class is not for the queasy - some applied makeup can look very realistic!  There is a $10 charge for the workshop. Please sign up and pay at MystiCon Registration.",
+		"guest_list": ["mariahjohnson"],
+		"event_id": "2018-02-251:00makeupworkshop",
+		"_id": "2062018-02-251:00makeupworkshop"
+	}, {
+		"day": "2018-02-25",
+		"time": "12:00",
+		"location": "Indie Film",
+		"title": "Back in Time, Outer Space and Aliens",
+		"description": "One Bite (Ireland 2:39), The Caretaker (USA 11:00), Jump Cut (Bulgaria 6:40), Time, and Again (UK 11:26), An Orphan In Time (USA 8:14), Icarus (USA 19:59)",
+		"guest_list": [],
+		"event_id": "2018-02-2512:00backintimeouterspaceandaliens",
+		"_id": "2072018-02-2512:00backintimeouterspaceandaliens"
+	}, {
+		"day": "2018-02-25",
+		"time": "1:00",
+		"location": "Indie Film",
+		"title": "Superheroes in Shorts",
+		"description": "Be prepared to laugh and maybe even cry...  Wonderful (UK 29:00), Breakfast (USA 26:17)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-251:00superheroesinshorts",
+		"_id": "2082018-02-251:00superheroesinshorts"
+	}, {
+		"day": "2018-02-25",
+		"time": "1:00",
+		"location": "Vista Room",
+		"title": "Building Character",
+		"description": "Witness our panelists take off their fictional personalities for a moment to briefly decribe their process for building, promoting and maintaining their personal branding (character).",
+		"guest_list": ["richsigfrit", "thatrueoriginalgata", "syrinx", "travissivart", "keithstanley"],
+		"event_id": "2018-02-251:00buildingcharacter",
+		"_id": "2092018-02-251:00buildingcharacter"
+	}, {
+		"day": "2018-02-25",
+		"time": "1:00",
+		"location": "Rm 533",
+		"title": "Author Reading Room",
+		"description": "R.S. Belcher",
+		"guest_list": ["rsbelcher"],
+		"event_id": "2018-02-251:00authorreadingroom",
+		"_id": "2102018-02-251:00authorreadingroom"
+	}, {
+		"day": "2018-02-25",
+		"time": "2:00",
+		"location": "Ballroom C",
+		"title": "Cult Movies: A Feature Presentation",
+		"description": "Some of our favorite films come from this unique genre, but what films define this term? Join our panelists as they discuss the underground classics of the silver screen.",
+		"guest_list": ["billyflynn", "angelmetro", "gingersnaps", "johnjohnson", "pattycakes", "reeper", "syrinx"],
+		"event_id": "2018-02-252:00cultmoviesafeaturepresentation",
+		"_id": "2112018-02-252:00cultmoviesafeaturepresentation"
+	}, {
+		"day": "2018-02-25",
+		"time": "2:00",
+		"location": "Ballroom D",
+		"title": "YA Lit Insanity",
+		"description": "Vampires sparkle, werewolves are cuddly, but children kill children for adults' pleasure while adults experiment on teens to find solutions for their problems. And, of course, there are more schools and school based stories than ever.  The trends in YA Lit are interesting statements on society even if they are fun to read.  Join our panelists as they discuss the plots already in print and speculate on the trends to come.",
+		"guest_list": ["michaeldpederson", "jasontgraves", "mxknowitall"],
+		"event_id": "2018-02-252:00yalitinsanity",
+		"_id": "2122018-02-252:00yalitinsanity"
+	}, {
+		"day": "2018-02-25",
+		"time": "2:00",
+		"location": "Dogwood 1",
+		"title": "Killing Serial Killer Cliches",
+		"description": "If you have heard that all serial killers are alike, you have probably learned ALL of the cliches. Except that they are wrong. No one person is the same. Why should serial killers be the same?   Learn from a serial killer specialist how to create rich, deep characters/villains to grab and hold readers and leave editors smiling! Learn the risk factors in human development to build interesting characters. Learn the thought patterns of a serial killer and use it to draw in your readers. Learn the basics of crime scene analysis (AKA: “profiling”) and victimology.  Ask your questions and get some answers. Build some new villains/anti-heroes on the spot. Have some fun with other crime literature junkies. (I am one, too.)",
+		"guest_list": ["erinashley"],
+		"event_id": "2018-02-252:00killingserialkillercliches",
+		"_id": "2132018-02-252:00killingserialkillercliches"
+	}, {
+		"day": "2018-02-25",
+		"time": "3:00",
+		"location": "Indie Film",
+		"title": "Different Kinds of Monsters",
+		"description": "SHORTS: Cops and Monsters (UK 7:21), Family Tradition (USA 23:30), Remnant Thoughts (USA 1:00), Wolf's Museum of Mystery (USA 9:18), Today is the First Day of the Rest of Your Life (Peru 7:49), 999 The Perfect Crime (*World Premiere* India 16:07)",
+		"guest_list": [],
+		"event_id": "2018-02-253:00differentkindsofmonsters",
+		"_id": "2142018-02-253:00differentkindsofmonsters"
+	}, {
+		"day": "2018-02-25",
+		"time": "2:00",
+		"location": "Indie Film",
+		"title": "Between Parents and Their Kids",
+		"description": "Saffron Ash (India 17:30), No Image (Montenegro 6:08), In the Blink of an Eye (Turkey 2:25), Super Mama (Tanzania 12:45), Meeting My Dead Mother (Spain 8:40), Alien Inception (USA 6:15), Rocketshed (UK 3:38)",
+		"guest_list": ["shawnwalton"],
+		"event_id": "2018-02-252:00betweenparentsandtheirkids",
+		"_id": "2152018-02-252:00betweenparentsandtheirkids"
+	}, {
+		"day": "2018-02-25",
+		"time": "3:00",
+		"location": "Vista Room",
+		"title": "Closing Ceremonies",
+		"description": "Join us as we say good bye to MystiCon 2018. Hear some highlights, get one last gander at our guests, see how we did in the Scholarship fundraising and so much more!",
+		"guest_list": ["carlabrindle", "clarekramer", "bellamorte", "geekradiodailybilly", "geekradiodailytheflynnstress", "jaysenbuterin", "joerlandsdale"],
+		"event_id": "2018-02-253:00closingceremonies",
+		"_id": "2162018-02-253:00closingceremonies"
+	}, {
+		"day": "2018-02-25",
+		"time": "3:30",
+		"location": "Vista Room",
+		"title": "MystiCon in Review",
+		"description": "Stay and tell us how we did! Talk directly to the Board Members and give us your thoughts…good or bad…it's all helpful.",
+		"guest_list": ["carlabrindle"],
+		"event_id": "2018-02-253:30mysticoninreview",
+		"_id": "2172018-02-253:30mysticoninreview"
+	}]
 }
+
