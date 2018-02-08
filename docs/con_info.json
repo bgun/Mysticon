@@ -1,7 +1,8 @@
 {
 	"_comment": "Remember: This file cannot contain images as require(image) cannot have dynamically generated strings.",
 	"images": {
-		"DASHBOARD": "https://bgun.github.io/Mysticon/mysticon.jpg"
+		"DASHBOARD": "https://bgun.github.io/Mysticon/mysticon.jpg",
+		"HOTEL_MAP": "https://bgun.github.io/Mysticon/hotel_map.jpg"
 	},
 	"content": {
     "aboutText": "<p>The original MystiCon, which took place over July 4th weekend in 1980 was considered a big party by most, but has recently been revived to take place in our favorite Roanoke, VA location, the Tanglewood Holiday Inn. The location and time of year that MystiCon takes place is one that fans, family and friends alike have come to rely on for an awesome weekend of SciFi, Fantasy and Pop Culture.</p><p>This convention was resurrected in 2010 by a collection of cool zany and passionate people that wanted to keep the family-friendly traditions of open gaming, enjoyment of different literature, arts, imaginations and camaraderie any Con-goer will surely enjoy!</p><p>We look forward to seeing you there!</p><p><em>MystiCon is a 501(c)(3) Non Profit Corporation.</em></p>",
