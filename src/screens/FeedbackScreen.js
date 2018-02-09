@@ -21,6 +21,8 @@ import { H1, H2, H3, H4 } from '../components/Headings';
 
 export default class FeedbackScreen extends Component {
 
+  static navigationOptions = { title: "Feedback" };
+
   constructor(props) {
     super();
     this.state = {

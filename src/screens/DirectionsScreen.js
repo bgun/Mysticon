@@ -23,7 +23,7 @@ import ExternalLink from '../components/ExternalLink';
 
 export default class DirectionsView extends Component {
 
-  static navigationOptions = { title: "Maps & Directions" };
+  static navigationOptions = { title: "Address & Directions" };
 
   render() {
     const { navigate } = this.props.navigation;
