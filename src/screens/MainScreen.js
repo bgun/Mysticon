@@ -61,7 +61,6 @@ export default class MainScreen extends React.Component {
       dataStore.fetchFromStorage(),
       dataStore.fetchFromNetwork()
     ]).then(results => {
-      console.log(results);
       let storageData = results[0];
       let networkData = results[1];
       let con_data = {};
@@ -103,7 +102,6 @@ export default class MainScreen extends React.Component {
   }
 
   render() {
-    console.log("Router:",MainNavigator.router);
     let main;
     if (this.state.loaded) {
       main = <MainNavigator />

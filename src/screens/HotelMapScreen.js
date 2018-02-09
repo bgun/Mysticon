@@ -81,10 +81,12 @@ export default class HotelMapScreen extends React.Component {
   }
 
   render() {
+    const HOTEL_MAP_WIDTH  = global.con_data.dimensions.HOTEL_MAP_WIDTH;
+    const HOTEL_MAP_HEIGHT = global.con_data.dimensions.HOTEL_MAP_HEIGHT;
     return (
       <View style={ styles.container } {...this._panResponder.panHandlers}>
         <Image
-          style={[ styles.map, { left: this.state.mapX, top: this.state.mapY} ]}
+          style={[ styles.map, { width: HOTEL_MAP_WIDTH, height: HOTEL_MAP_HEIGHT, left: this.state.mapX, top: this.state.mapY } ]}
           source={{ uri: global.con_data.images.HOTEL_MAP }}
         />
       </View>
@@ -101,8 +103,6 @@ var styles = StyleSheet.create({
   map: {
     borderColor: globalStyles.COLORS.border,
     borderWidth: 20,
-    height: 700,
-    position: 'absolute',
-    width: 700
+    position: 'absolute'
   }
 });

@@ -85,7 +85,7 @@ export default {
     console.log("saving todos");
     AsyncStorage.setItem('todo', JSON.stringify(todo_array))
       .then(resp => {
-        console.log("save todos", resp);
+        console.log("saving "+todo_array.length+" todos", resp);
       })
       .catch(e => {
         global.makeToast("Error saving to-do list", "error");

@@ -14,6 +14,8 @@ import {
   View
 } from 'react-native';
 
+import { StackNavigator } from 'react-navigation';
+
 import Icon from 'react-native-vector-icons/Entypo';
 
 import _ from 'lodash';
@@ -25,9 +27,10 @@ import EventItem from '../components/EventItem';
 let window = Dimensions.get('window');
 
 
-export default class DashboardView extends Component {
+class DashboardScreen extends Component {
 
   static navigationOptions = {
+    title: "Dashboard",
     tabBarLabel: "Home",
     tabBarIcon: ({ tintColor }) => (
       <Icon name="home" size={ 24 } color={ tintColor } />
@@ -68,13 +71,14 @@ export default class DashboardView extends Component {
   render() {
     return (
       <View style={ styles.container }>
-        <ScrollView style={{ flexDirection: 'column' }}>
-          <Image style={{ flex: 1, height: 333, width: window.width }} source={{ uri: global.con_data.images.DASHBOARD }} />
+        <ScrollView style={{ flex: 1, flexDirection: 'column' }}>
+          <Image style={{ height: 333, width: window.width }} source={{ uri: global.con_data.images.DASHBOARD }} />
           <Text style={ styles.todoTitleText }>MY TO-DO LIST</Text>
           { this.state.todoCount > 0 ? (
           <ListView
             tabLabel="My Todo List"
             style={{ flex: 1, width: window.width }}
+            removeClippedSubviews={ false }
             dataSource={ this.state.dataSource }
             renderRow={ rowData => <EventItem key={ rowData.event_id } navigation={ this.props.navigation } event_id={ rowData.event_id } /> }
           />
@@ -89,6 +93,10 @@ export default class DashboardView extends Component {
   }
 
 }
+
+export default StackNavigator({
+  Dashboard : { screen: DashboardScreen }
+});
 
 const styles = StyleSheet.create({
   container: {

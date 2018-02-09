@@ -42,11 +42,10 @@ class MoreScreen extends React.Component {
   render() {
     return (
       <ScrollView style={ styles.container }>
-        <MenuItem key="directions" link="Directions" text="Maps & Directions" icon="map"    { ...this.props } />
-        <MenuItem key="gaming"     link="Gaming"     text="Gaming"            icon="pencil" { ...this.props } />
-        <MenuItem key="feedback"   link="Feedback"   text="Feedback"          icon="pencil" { ...this.props } />
-        <MenuItem key="newsfeed"   link="NewsFeed"   text="News & Updates"    icon="bell"   { ...this.props } />
-        <MenuItem key="about"      link="About"      text="About"             icon="help"   { ...this.props } />
+        <MenuItem key="directions" link="Directions" text="Address & Directions" icon="pin"    { ...this.props } />
+        <MenuItem key="hotelmap"   link="HotelMap"   text="Hotel Map"            icon="map"    { ...this.props } />
+        <MenuItem key="feedback"   link="Feedback"   text="Feedback"             icon="pencil" { ...this.props } />
+        <MenuItem key="about"      link="About"      text="About"                icon="help"   { ...this.props } />
       </ScrollView>
     )
   }

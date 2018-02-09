@@ -6,7 +6,9 @@ import MainScreen from './src/screens/MainScreen';
 export default class App extends React.Component {
   render() {
     return (
-      <MainScreen />
+      <View style={{ flex: 1 }}>
+        <MainScreen />
+      </View>
     );
   }
 }
