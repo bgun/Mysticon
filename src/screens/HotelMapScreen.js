@@ -83,6 +83,7 @@ export default class HotelMapScreen extends React.Component {
   render() {
     const HOTEL_MAP_WIDTH  = global.con_data.dimensions.HOTEL_MAP_WIDTH;
     const HOTEL_MAP_HEIGHT = global.con_data.dimensions.HOTEL_MAP_HEIGHT;
+    
     return (
       <View style={ styles.container } {...this._panResponder.panHandlers}>
         <Image
@@ -102,7 +103,7 @@ var styles = StyleSheet.create({
   },
   map: {
     borderColor: globalStyles.COLORS.border,
-    borderWidth: 20,
+    borderWidth: 5,
     position: 'absolute'
   }
 });

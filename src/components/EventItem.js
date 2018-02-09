@@ -40,7 +40,7 @@ export default class EventItem extends Component {
     const { navigate } = this.props.navigation;
 
     return (
-      <TouchableOpacity style={[globalStyles.floatingListItem, styles.item]} onPress={ () => navigate("EventDetail", { event_id: this.state.event_id }) }>
+      <TouchableOpacity style={[globalStyles.floatingListItem, styles.item]} onPress={ () => navigate("EventDetail", { navigation: this.props.navigation, event_id: this.state.event_id }) }>
         <View style={{ flex: 1 }}>
           <Text style={ styles.titleText }>{ this.state.title }</Text>
           <View style={{ flexDirection: 'row' }}>

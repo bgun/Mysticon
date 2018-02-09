@@ -22,6 +22,7 @@ import EventItem from '../components/EventItem';
 
 import EventDetailScreen from './EventDetailScreen';
 import GuestDetailScreen from './GuestDetailScreen';
+import FeedbackScreen    from './FeedbackScreen';
 
 import globalStyles from '../globalStyles';
 
@@ -144,7 +145,8 @@ class ScheduleScreen extends Component {
 export default StackNavigator({
   "Schedule":     { screen: ScheduleScreen },
   "EventDetail" : { screen: EventDetailScreen },
-  "GuestDetail" : { screen: GuestDetailScreen }
+  "GuestDetail" : { screen: GuestDetailScreen },
+  "Feedback"    : { screen: FeedbackScreen }
 }, {
   navigationOptions: {
     tabBarLabel: "Schedule",

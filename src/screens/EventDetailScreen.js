@@ -46,7 +46,7 @@ export default class EventDetailScreen extends Component {
           )) : null}
         </View>
         <TodoButton event={ event } />
-        <FeedbackButton subject={ event.title } />
+        <FeedbackButton navigation={ this.props.navigation } subject={ event.title } />
         <View style={{ height: 30 }} />
       </ScrollView>
     );

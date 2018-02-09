@@ -36,7 +36,7 @@ export default class AboutView extends Component {
         <H1>About Mysticon</H1>
         <HtmlView value={ aboutText } />
 
-        <View style={{ borderTopColor: globalStyles.COLORS.border, borderTopWidth: 1, paddingTop: 30 }} />
+        <View style={{ borderTopColor: globalStyles.COLORS.border, borderTopWidth: 1, paddingTop: 10, marginTop: 30 }} />
 
         <H3>About This App</H3>
 
