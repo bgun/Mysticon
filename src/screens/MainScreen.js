@@ -5,7 +5,9 @@ import {
   AsyncStorage,
   Dimensions,
   Navigator,
+  Platform,
   SafeAreaView,
+  StatusBar,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -44,7 +46,15 @@ let MainNavigator = TabNavigator({
     path: 'more'
   }
 }, {
-  tabBarPosition: 'bottom'
+  tabBarPosition: 'bottom',
+  tabBarOptions: {
+    labelStyle: {
+    },
+    tabStyle: {
+      paddingLeft: 0,
+      paddingRight: 0
+    }
+  }
 });
 
 export default class MainScreen extends React.Component {
@@ -109,7 +119,7 @@ export default class MainScreen extends React.Component {
       main = <Text>Loading...</Text>
     }
     return (
-      <View style={ styles.mainView }>
+      <View style={[ styles.mainView, { paddingTop: Platform.OS === 'ios' ? 0 : StatusBar.currentHeight } ]}>
         { main }
         <Toast />
       </View>

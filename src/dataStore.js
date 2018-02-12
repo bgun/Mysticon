@@ -19,6 +19,10 @@ let fetchOptions = {
 };
 
 
+// this needs to exist in case an EventItem is rendered before todos are created
+global.todos = new Set();
+
+
 export default {
 
   fetchFromNetwork: () => {

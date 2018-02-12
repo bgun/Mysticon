@@ -9,7 +9,7 @@
       "bundleIdentifier": "com.con-nexus.app.mysticon"
     },
     "android": {
-      "package": "com.yourcompany.yourappname"
+      "package": "com.mysticon"
     }
   }
 }
