@@ -17,29 +17,10 @@
 	"lat": 33.917376,
 	"lon": -84.345061,
 	"name": "Mysticon 2018",
-	"updated_at": "2018-02-12T03:58:32.192Z",
-
+	"updated_at": "2018-02-12T15:58:32.192Z",
 	"guests": [{
 		"name": "Moderator/ Presenter",
 		"guest_id": "moderatorpresenter"
-	}, {
-		"name": "Panelist1",
-		"guest_id": "panelist1"
-	}, {
-		"name": "Panelist2",
-		"guest_id": "panelist2"
-	}, {
-		"name": "Panelist3",
-		"guest_id": "panelist3"
-	}, {
-		"name": "Panelist4",
-		"guest_id": "panelist4"
-	}, {
-		"name": "Panelist5",
-		"guest_id": "panelist5"
-	}, {
-		"name": "Panelist6",
-		"guest_id": "panelist6"
 	}, {
 		"name": "Crymsyn Hart",
 		"guest_id": "crymsynhart"
@@ -396,15 +377,6 @@
 		"guest_id": "reeper"
 	}],
 	"events": [{
-		"day": "Invalid date",
-		"time": "Invalid date",
-		"location": "Location",
-		"title": "Panel Name",
-		"description": "Description",
-		"guest_list": ["moderatorpresenter", "panelist1", "panelist2", "panelist3", "panelist4", "panelist5", "panelist6"],
-		"event_id": "Invalid dateInvalid datepanelname",
-		"_id": "0Invalid dateInvalid datepanelname"
-	}, {
 		"day": "2018-02-23",
 		"time": "15:00",
 		"location": "Ballroom C",
