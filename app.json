@@ -5,11 +5,24 @@
     "icon": "./docs/icon_1200.png",
     "version": "3.0.0",
     "slug": "mysticon",
+    "loading": {
+      "hideExponentText": true
+    },
     "ios": {
-      "bundleIdentifier": "com.con-nexus.app.mysticon"
+      "bundleIdentifier": "com.con-nexus.app.mysticon",
+      "publishBundlePath": "ios/mysticon/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/mysticon/Supporting/shell-app-manifest.json"
     },
     "android": {
-      "package": "com.mysticon"
+      "package": "com.mysticon",
+      "permissions": [],
+      "versionCode": 3
+    },
+    "isDetached": true,
+    "detach": {
+      "scheme": "exp0179cc6237334ea4a3b6a21bc9ccccb5",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.3.3-sdk25.0.0-e7a4361a-631d-4caf-9692-1880d71c394a.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.3.0-sdk25.0.0-0c32461b-a7c6-4ddc-b85b-32a80c4f18d9.tar.gz"
     }
   }
 }
