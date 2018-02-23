@@ -19,23 +19,8 @@
 	"name": "Mysticon 2018",
 	"updated_at": "2018-02-23T05:44:37.501Z",
 	"guests": [{
-		"name": "Moderator/ Presenter",
-		"guest_id": "moderatorpresenter"
-	}, {
-		"name": "Panelist1",
-		"guest_id": "panelist1"
-	}, {
-		"name": "Panelist2",
-		"guest_id": "panelist2"
-	}, {
-		"name": "Panelist3",
-		"guest_id": "panelist3"
-	}, {
-		"name": "Panelist4",
-		"guest_id": "panelist4"
-	}, {
-		"name": "Panelist5",
-		"guest_id": "panelist5"
+		"name": "Tony Daniel",
+		"guest_id": "tonydaniel"
 	}, {
 		"name": "Crymsyn Hart",
 		"guest_id": "crymsynhart"
@@ -425,15 +410,6 @@
 		"guest_id": "reeper"
 	}],
 	"events": [{
-		"day": "Invalid date",
-		"time": "Invalid date",
-		"location": "Location",
-		"title": "Panel Name",
-		"description": "Description\n\nTech",
-		"guest_list": ["moderatorpresenter", "panelist1", "panelist2", "panelist3", "panelist4", "panelist5"],
-		"event_id": "Invalid dateInvalid datepanelname",
-		"_id": "0Invalid dateInvalid datepanelname"
-	}, {
 		"day": "2018-02-23",
 		"time": "15:00",
 		"location": "Ballroom C",
@@ -617,11 +593,11 @@
 		"day": "2018-02-23",
 		"time": "16:00",
 		"location": "Vista Room",
-		"title": "Zach Callison GOH Interview",
-		"description": "Zach Callison is an actor, voice actor and singer. He is widely known for voicing Steven in \"Steven Universe.\" He has a lot more to tell about who he is and what he's been up to lately!\n\ndedicated sound system with at least 4 mics.  There will also be a 6’ movie screen in here",
-		"guest_list": ["anitabruckert", "zachcallison"],
-		"event_id": "2018-02-2316:00zachcallisongohinterview",
-		"_id": "212018-02-2316:00zachcallisongohinterview"
+		"title": "Baen Traveling Road Show",
+		"description": "",
+		"guest_list": ["tonydaniel"],
+		"event_id": "2018-02-2316:00baentravelingroadshow",
+		"_id": "212018-02-2316:00baentravelingroadshow"
 	}, {
 		"day": "2018-02-23",
 		"time": "17:00",
